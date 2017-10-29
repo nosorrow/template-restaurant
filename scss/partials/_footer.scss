@@ -1,0 +1,24 @@
+.footer-style {
+  height: 150px;
+  background-color: #3d3536;
+  color: $font-color-lite;
+  [class^=col-]{
+    padding: 5px;
+  }
+  .social-icon-footer a {
+    color: #fff;
+    i {
+      padding: 5px;
+    }
+  }
+  .social-icon-footer a:hover{
+    color: $primary-color;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .footer-style{
+    text-align: left;
+    height:auto;
+  }
+}

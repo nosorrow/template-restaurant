@@ -1,0 +1,236 @@
+/*
+* Restaurant site template
+*/
+/* Color variables */
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+/* NavBar */
+/*Paralax slide var*/
+/* navbar styling */
+.changednav {
+  display: none;
+  background-color: #fff !important;
+  box-shadow: 1px 1px 8px #ccc; }
+
+.navbar {
+  margin-bottom: 0;
+  background-color: transparent;
+  border: 0;
+  font-size: 16px !important;
+  font-family: "Playfair Display", sans-serif;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0; }
+
+.navbar li a {
+  color: #fff !important;
+  height: 70px;
+  padding: 23.33333px 10px; }
+
+.navbar .navbar-brand {
+  color: #0ffef9 !important;
+  font-size: 26px;
+  font-weight: bold; }
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  background-color: transparent !important;
+  border-top-style: solid;
+  border-top-color: #0ffef9 !important;
+  border-top-width: 3px !important; }
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important; }
+
+.footer-style {
+  height: 150px;
+  background-color: #3d3536;
+  color: #fff; }
+  .footer-style [class^=col-] {
+    padding: 5px; }
+  .footer-style .social-icon-footer a {
+    color: #fff; }
+    .footer-style .social-icon-footer a i {
+      padding: 5px; }
+  .footer-style .social-icon-footer a:hover {
+    color: #48AECB; }
+
+@media screen and (max-width: 992px) {
+  .footer-style {
+    text-align: left;
+    height: auto; } }
+body {
+  font: 400 15px "Playfair Display", sans-serif;
+  line-height: 1.8;
+  color: #818181; }
+
+hr.hr-double {
+  border-top: 4px double !important; }
+
+h2 {
+  font-size: 24px;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 30px; }
+
+h2.post-title {
+  color: #4e7496;
+  font-style: italic; }
+
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400; }
+
+h4.section-title {
+  color: #333;
+  text-transform: uppercase; }
+
+.container-fluid {
+  padding: 60px 50px; }
+
+.paralax-slide {
+  background: url("img/bar-image.png") 50% 0 no-repeat fixed;
+  color: #fff;
+  margin: 0;
+  padding: 200px 0 260px 0;
+  background-size: cover; }
+  .paralax-slide .company-color {
+    color: #48AECB; }
+
+.text-about {
+  padding: 10px 10px 10px 10px;
+  max-width: 500px; }
+  .text-about ul li {
+    font-size: 16px; }
+
+.p-about {
+  color: #000000; }
+
+.image-about {
+  padding: 10px 10px 10px 10px; }
+
+.text-menu {
+  padding: 10px 10px 10px 10px;
+  max-width: 500px; }
+  .text-menu ul li {
+    font-size: 16px; }
+
+.full-menu-link {
+  font-size: 18px; }
+
+.bg-grey {
+  background-color: #f6f6f6; }
+
+.social-icon {
+  margin: 5px; }
+  .social-icon a {
+    color: #fff; }
+  .social-icon a:hover {
+    color: #48AECB !important; }
+  .social-icon i {
+    padding: 3px; }
+
+.gallery {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+div .gallery-image {
+  float: left;
+  margin: 0 !important;
+  padding: 0 !important; }
+
+.address {
+  font-size: 16px; }
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0; } }
+.thumbnail {
+  padding: 0 0 15px 0;
+  border-radius: 0; }
+
+.thumbnail img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 10px; }
+
+/*-- #home Button  display when scroll--*/
+.home {
+  display: none;
+  width: 50px;
+  height: 50px;
+  background-color: #3d3536;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.8;
+  position: fixed;
+  z-index: 1111; }
+  .home a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #fff; }
+
+/* ---------------- Animation ------------------------*/
+.slideanim {
+  visibility: hidden; }
+
+.slide {
+  /* The name of the animation */
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  /* The duration of the animation */
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  /* Make the element visible */
+  visibility: visible; }
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%); } }
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%); } }
+.form-control, .input-group-addon, .btn {
+  border-radius: 0px; }
+
+/* Black buttons with extra padding and without rounded borders */
+.btn-rooms {
+  margin-top: 40px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 0;
+  transition: .2s; }
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn-rooms:hover, .rooms:focus {
+  border: 1px solid #333;
+  background-color: #333;
+  color: #fff; }
+
+.hr {
+  width: 35%;
+  border-top: 1px solid #999;
+  margin-bottom: 50px; }
+
+.thumbnail-bottom > img {
+  margin-bottom: 30px; }
+
+/*# sourceMappingURL=style.css.map */
