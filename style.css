@@ -163,7 +163,9 @@ h4 {
 
 h4.section-title {
   color: #333;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 4px; }
 
 .container-padding {
   padding: 60px 50px; }
@@ -191,8 +193,8 @@ h4.section-title {
 .text-menu {
   padding: 10px 10px 10px 10px;
   max-width: 500px; }
-  .text-menu ul li {
-    font-size: 16px; }
+  .text-menu p {
+    font-style: italic; }
 
 .full-menu-link {
   font-size: 18px; }
@@ -210,7 +212,8 @@ h4.section-title {
     padding: 3px; }
 
 .address {
-  font-size: 16px; }
+  font-size: 16px;
+  padding-left: 30px; }
 
 .gallery {
   padding: 10px 0 10px 0; }

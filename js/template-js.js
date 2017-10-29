@@ -7,43 +7,19 @@ $(document).ready(function () {
 
     var x = document.getElementById("myCarousel").clientHeight;
 
-   /* // Променя background на navbar от прозрачен на бял
-    $('#main-nav').mouseover(function () {
-
-        if ($(window).scrollTop() < (x - 45)) {
-
-            $('#main-nav').addClass('changednav').fadeIn("slow");
-
-            $('#main-nav').find('a').attr('style', "color: #000 !important");
-        }
-    });
-
-    $('#main-nav').mouseout(function () {
-
-        if ($(window).scrollTop() < (x - 45)) {
-
-            $('#main-nav').removeClass('changednav');
-
-            $('#main-nav').find('a').removeAttr('style');
-        }
-    });
-
+    // Променя border - navbar
     $(window).scroll(function () {
 
         if ($(window).scrollTop() >= (x - 45)) {
 
             $('#main-nav').addClass('changednav').fadeIn("slow");
 
-            $('#main-nav').find('a').attr('style', "color: #000 !important;");
-
         } else {
 
-            $('#main-nav').removeClass('changednav').removeAttr('style');
-
-            $('#main-nav').find('a').removeAttr('style');
+            $('#main-nav').removeClass('changednav');
 
         }
-    });*/
+    });
 
 // Hide #gohome for small devices
     $(window).scroll(function() {

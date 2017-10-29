@@ -27,13 +27,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Restaurant Name</a>
+            <a class="navbar-brand" href="#myPage">Restaurant Name</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#about">Ресторантът</a></li>
                 <li><a href="#menu">Меню</a></li>
-                <li><a href="#">Онлайн поръчка</a></li>
+                <li><a href="#order">Онлайн поръчка</a></li>
                 <li><a href="#chef">Шефът</a></li>
                 <li><a href="#contact">Контакти</a></li>
             </ul>
@@ -118,7 +118,7 @@
 <!-- --------------- Container Add( Menu ) ----------------- -->
 <div class="container container-padding" id="menu">
     <div class="row text-center">
-        <h4 class="section-title">Our Menu</h4>
+        <h4 class="section-title">специалното ни меню</h4>
         <hr class="hr hr-double">
     </div>
     <div class="row">
@@ -192,7 +192,7 @@
 
 <!-- ------------------- ADD Chef Container -------------->
 
-<div id="contact" class="container container-padding">
+<div id="chef" class="container container-padding">
     <div class="row text-center">
         <h4 class="section-title">Главния готвач</h4>
         <hr class="hr hr-double">
@@ -249,11 +249,11 @@
         <hr class="hr hr-double">
     </div>
     <div class="row">
-        <div class="col-sm-5 text-center">
+        <div class="col-sm-5 text-left">
             <div class="address">
                 <p>Адрес</p>
 
-                <p><span class="glyphicon glyphicon-map-marker"></span> Видин ул. "Гладстон" 25 </p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Видин ул. "Гладстон" 25</p>
 
                 <p><span class="glyphicon glyphicon-phone"></span> +0359 88223314</p>
 
@@ -319,7 +319,8 @@
             </ul>
         </div>
         <div class="col-md-4 col-sm-12">
-            <p>2017 Bootstrap Theme created By {plamenorama@gmail.com}</p>
+            <p>2017 Bootstrap Theme created By</p>
+            <p>{ plamenorama@gmail.com }</p>
         </div>
     </div>
 </div>
