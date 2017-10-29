@@ -4,11 +4,13 @@
 @import 'scss/partials/variables';
 @import 'scss/partials/navbar';
 @import 'scss/partials/footer';
+@import 'scss/partials/carousel';
 
 body {
   font: $body-font;
   line-height: 1.8;
   color: $body-font-color;
+  padding-top: 70px;
 }
 hr.hr-double{
   border-top: 4px double !important;
@@ -33,15 +35,16 @@ h4.section-title{
   color: $section-title-color;
   text-transform: uppercase;
 }
-.container-fluid {
+
+.container-padding {
   padding: 60px 50px;
 }
 
 .paralax-slide {
-  background: $bg-slide;
+  //background: $bg-slide;
   color: $font-color-lite;
   margin: 0;
-  padding: 200px 0 260px 0;
+  padding: 0 0 260px 0;
   background-size: cover;
   .company-color {
     color: $primary-color;
@@ -89,17 +92,12 @@ h4.section-title{
   }
   margin: 5px;
 }
-.gallery{
-  margin: 0 !important;
-  padding: 0 !important;
-}
-div .gallery-image{
- float: left;
-  margin: 0 !important;
-  padding: 0 !important;
-}
+
 .address{
   font-size: 16px;
+}
+.gallery{
+  padding: 10px 0 10px 0;
 }
 @media screen and (max-width: 768px) {
   .col-sm-4 {

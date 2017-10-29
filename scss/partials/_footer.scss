@@ -1,5 +1,5 @@
 .footer-style {
-  height: 150px;
+  height: 250px;
   background-color: #3d3536;
   color: $font-color-lite;
   [class^=col-]{
@@ -12,6 +12,16 @@
     }
   }
   .social-icon-footer a:hover{
+    color: $primary-color;
+  }
+  a{
+    color: $font-color-lite;
+    text-decoration: none;
+  }
+  li {
+    list-style-type: none;
+  }
+  a:hover{
     color: $primary-color;
   }
 }

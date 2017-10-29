@@ -1,26 +1,26 @@
 /* navbar styling */
 .changednav {
   display: none;
-  background-color: $font-color-lite !important;
   box-shadow: 1px 1px 8px #ccc;
 }
 
 .navbar {
-  margin-bottom: 0;
-  background-color: transparent;
+  background-color: $navbar-bg-color;
+  border-radius: 0;
   border: 0;
+
+}
+
+.navbar li a {
+  color: #333 !important;
+  height: $navbar-height;
+  padding: $navbar-padding-top 10px;
   font-size: $navbar-font-size !important;
   font-family: $navbar-font-family;
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
-  border-radius: 0;
 }
 
-.navbar li a {
-  color: #fff !important;
-  height: $navbar-height;
-  padding: $navbar-padding-top 10px;
-}
 
 .navbar .navbar-brand {
   color: $navbar-brand-font-color !important;
@@ -29,13 +29,8 @@
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  background-color: transparent !important;
+  background-color: #fff !important;
   border-top-style: solid;
   border-top-color: $navbar-brand-font-color !important;
   border-top-width: 3px !important;
-}
-
-.navbar-default .navbar-toggle {
-  border-color: transparent;
-  color: $font-color-lite !important;
 }

@@ -5,9 +5,9 @@
 // Show - Hide navbar - > ScrollDown
 $(document).ready(function () {
 
-    var x = document.getElementById("paralax-slide").clientHeight;
+    var x = document.getElementById("myCarousel").clientHeight;
 
-    // Променя background на navbar от прозрачен на бял
+   /* // Променя background на navbar от прозрачен на бял
     $('#main-nav').mouseover(function () {
 
         if ($(window).scrollTop() < (x - 45)) {
@@ -43,7 +43,7 @@ $(document).ready(function () {
             $('#main-nav').find('a').removeAttr('style');
 
         }
-    });
+    });*/
 
 // Hide #gohome for small devices
     $(window).scroll(function() {
@@ -80,7 +80,7 @@ $(document).ready(function () {
             window.location.hash = hash;
         });
     });
-})
+});
 // ------------------ Animation ----------------------------
 $(window).scroll(function () {
     $(".slideanim").each(function () {
@@ -94,4 +94,4 @@ $(window).scroll(function () {
 });
 // -------------- ScrollReveal ----------------
 window.sr = ScrollReveal();
-sr.reveal('#googleMap, #img-about, #img-pool, #img-restaurant,#img-bar',{ duration: 2000 });
+sr.reveal('#img-about, #img-pool, #img-restaurant,#img-bar',{ duration: 2000 });
