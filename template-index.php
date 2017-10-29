@@ -51,15 +51,30 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="img/oktopod.jpg" alt="Restaurant">
+            <img src="img/oktopod.jpg" alt="Restaurant" style="height: 600px">
+            <div class="carousel-caption">
+                <h1>Taste of the East</h1>
+                <h3>I'm a paragraph. here add your own text and edit me.</h3>
+                <p><a class="btn btn-lg btn-default btn-outline" href="#" role="button">поръчай</a></p>
+            </div>
         </div>
 
         <div class="item">
-            <img src="img/furna.jpg" alt="Furna">
+            <img src="img/furna.jpg" alt="Furna" style="height: 600px">
+            <div class="carousel-caption">
+                <h1>Taste of the East</h1>
+                <h3>I'm a paragraph. here add your own text and edit me.</h3>
+                <p><a class="btn btn-lg btn-default btn-outline" href="#" role="button">поръчай</a></p>
+            </div>
         </div>
 
         <div class="item">
-            <img src="img/shots.jpg" alt="Shots">
+            <img src="img/shots.jpg" alt="Shots" style="height: 600px">
+            <div class="carousel-caption">
+                <h1>Taste of the East</h1>
+                <h3>I'm a paragraph. here add your own text and edit me.</h3>
+                <p><a class="btn btn-lg btn-default btn-outline" href="#" role="button">поръчай</a></p>
+            </div>
         </div>
     </div>
 
@@ -205,55 +220,27 @@
         <h4 class="section-title">От нашата кухня</h4>
         <hr class="hr hr-double">
     </div>
-    <div class="row gallery">
-        <div class="col-sm-3">
-            <img src="img/gal/salmon.jpg" alt="01" class="img-responsive">
-        </div>
-        <div class="col-sm-3">
-            <img src="img/gal/burger-1.jpg" alt="01" class="img-responsive">
-        </div>
-        <div class="col-sm-3">
-            <img src="img/gal/oktopod.jpg" alt="01" class="img-responsive">
-        </div>
-        <div class="col-sm-3">
-            <img src="img/gal/food-1.jpg" alt="01" class="img-responsive">
-        </div>
-    </div>
-    <div class="row gallery">
-        <div class="col-sm-3">
-            <img src="img/gal/desert.jpg" alt="01" class="img-responsive">
-        </div>
-        <div class="col-sm-3">
-            <img src="img/gal/desert-3.jpg" alt="01" class="img-responsive">
-        </div>
-        <div class="col-sm-3">
-            <img src="img/gal/palachinka.jpg" alt="01" class="img-responsive">
-        </div>
-        <div class="col-sm-3">
-            <img src="img/gal/cake.jpg" alt="01" class="img-responsive">
-        </div>
-    </div>
-    <div class="row gallery">
-        <div class="col-sm-3">
-            <img src="img/gal/salmon.jpg" alt="01" class="img-responsive">
-        </div>
-        <div class="col-sm-3">
-            <img src="img/gal/burger-1.jpg" alt="01" class="img-responsive">
-        </div>
-        <div class="col-sm-3">
-            <img src="img/gal/oktopod.jpg" alt="01" class="img-responsive">
-        </div>
-        <div class="col-sm-3">
-            <img src="img/gal/food-1.jpg" alt="01" class="img-responsive">
+    <div class="col-md-12">
+        <div class="row">
+            <hr>
+            <div class="gal">
+                <img src="img/gal/salmon.jpg" alt="01">
+                <img src="img/gal/frape.jpg" alt="01">
+                <img src="img/gal/burger-1.jpg" alt="01">
+                <img src="img/gal/food-4.jpg" alt="01">
+                <img src="img/gal/uzzo.jpg" alt="01">
+                <img src="img/gal/oktopod.jpg" alt="01">
+                <img src="img/gal/rest-2.jpg" alt="01">
+                <img src="img/gal/food-1.jpg" alt="01">
+                <img src="img/gal/palachinka.jpg" alt="01">
+                <img src="img/gal/fresh.jpg" alt="01">
+                <img src="img/gal/bar-image.jpg" alt="01">
+                <img src="img/gal/food-2.jpg" alt="01">
+                <img src="img/gal/desert.jpg" alt="01">
+            </div>
         </div>
     </div>
 </div>
-
-<!--<img src="img/gal/salmon.jpg" alt="01" class="">
-<img src="img/gal/burger-1.jpg" alt="01" class="">
-<img src="img/gal/oktopod.jpg" alt="01" class="">
-<img src="img/gal/food-1.jpg" alt="01" class="">
-<img src="img/gal/palachinka.jpg" alt="01" class="">
 
 <!-- ------------------- ADD Contact Container -- ------------>
 <div id="contact" class="container-fluid bg-grey container-padding">
@@ -262,7 +249,7 @@
         <hr class="hr hr-double">
     </div>
     <div class="row">
-        <div class="col-sm-5">
+        <div class="col-sm-5 text-center">
             <div class="address">
                 <p>Адрес</p>
 
@@ -274,43 +261,37 @@
             </div>
         </div>
         <div class="col-sm-7">
-            <img src="img/flower-1.jpg" alt="" style="width: 350px; height: auto">
+            <!-- ------------ Google map ---------------------- -->
+            <!-- Set height and width with CSS -->
+            <div id="googleMap" style="height:400px;width:100%;"></div>
+            <!-- Add Google Maps -->
+            <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCPDJyNrJzVQwshGN8MPLrr0zR7LOAneCg"></script>
+            <script>
+                var myCenter = new google.maps.LatLng(43.991771, 22.879069);
+
+                function initialize() {
+                    var mapProp = {
+                        center: myCenter,
+                        zoom: 16,
+                        scrollwheel: false,
+                        draggable: false,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+
+                    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+                    var marker = new google.maps.Marker({
+                        position: myCenter
+                    });
+
+                    marker.setMap(map);
+                }
+
+                google.maps.event.addDomListener(window, 'load', initialize);
+            </script>
         </div>
     </div>
 </div>
-<!-- ------------ Add Section Contact-Image ------------- -->
-
-<!-- ------------ Google map ---------------------- -->
-
-
-<!-- Set height and width with CSS -->
-<div id="googleMap" style="height:400px;width:100%;"></div>
-<!-- Add Google Maps -->
-<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCPDJyNrJzVQwshGN8MPLrr0zR7LOAneCg"></script>
-<script>
-    var myCenter = new google.maps.LatLng(43.991771, 22.879069);
-
-    function initialize() {
-        var mapProp = {
-            center: myCenter,
-            zoom: 16,
-            scrollwheel: false,
-            draggable: false,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-
-        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-
-        var marker = new google.maps.Marker({
-            position: myCenter
-        });
-
-        marker.setMap(map);
-    }
-
-    google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-
 <!-- ---------------- GO HOME Button----------------------------------->
 <div id="gohome" class="home">
     <a href="#myPage" title="To Top">
@@ -338,7 +319,7 @@
             </ul>
         </div>
         <div class="col-md-4 col-sm-12">
-            <p>2016 Bootstrap Theme Made By Plamen</p>
+            <p>2017 Bootstrap Theme created By {plamenorama@gmail.com}</p>
         </div>
     </div>
 </div>

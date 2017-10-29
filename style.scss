@@ -5,6 +5,8 @@
 @import 'scss/partials/navbar';
 @import 'scss/partials/footer';
 @import 'scss/partials/carousel';
+@import 'scss/partials/button-outline';
+
 
 body {
   font: $body-font;
@@ -12,26 +14,31 @@ body {
   color: $body-font-color;
   padding-top: 70px;
 }
-hr.hr-double{
+
+hr.hr-double {
   border-top: 4px double !important;
 }
+
 h2 {
   font-size: 24px;
   color: $font-color-dark;
   font-weight: 600;
   margin-bottom: 30px;
 }
-h2.post-title{
+
+h2.post-title {
   color: $post-title-color;
   font-style: italic;
 }
+
 h4 {
   font-size: 19px;
   line-height: 1.375em;
   color: $font-color-dark;
   font-weight: 400;
 }
-h4.section-title{
+
+h4.section-title {
   color: $section-title-color;
   text-transform: uppercase;
 }
@@ -55,27 +62,32 @@ h4.section-title{
   padding: 10px 10px 10px 10px;
   max-width: 500px;
 
-  ul li{
+  ul li {
     font-size: 16px;
   }
 }
-.p-about{
+
+.p-about {
   color: #000000;
 }
-.image-about{
+
+.image-about {
   padding: 10px 10px 10px 10px;
 }
-.text-menu{
+
+.text-menu {
   padding: 10px 10px 10px 10px;
   max-width: 500px;
 
-  ul li{
+  ul li {
     font-size: 16px;
   }
 }
-.full-menu-link{
+
+.full-menu-link {
   font-size: 18px;
 }
+
 .bg-grey {
   background-color: $section-bg-color;
 }
@@ -93,12 +105,14 @@ h4.section-title{
   margin: 5px;
 }
 
-.address{
+.address {
   font-size: 16px;
 }
-.gallery{
+
+.gallery {
   padding: 10px 0 10px 0;
 }
+
 @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
@@ -181,12 +195,12 @@ h4.section-title{
   }
 }
 
-.form-control, .input-group-addon, .btn{
+.form-control, .input-group-addon, .btn {
   border-radius: 0px;
 }
 
 /* Black buttons with extra padding and without rounded borders */
-.btn-rooms{
+.btn-rooms {
   margin-top: 40px;
   padding: 10px 20px;
   background-color: transparent;
@@ -204,11 +218,35 @@ h4.section-title{
 }
 
 .hr {
-  width: 35%; border-top: 1px solid #999;
+  width: 35%;
+  border-top: 1px solid #999;
   margin-bottom: 50px;
 }
 
-.thumbnail-bottom > img{
+.thumbnail-bottom > img {
   margin-bottom: 30px;
 }
 
+/* ----------------------------------- */
+.gal {
+
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+
+}
+
+.gal img {
+  width: 100%;
+  padding: 7px 0;
+}
+@media (max-width: 500px) {
+
+  .gal {
+
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+
+  }
+}
