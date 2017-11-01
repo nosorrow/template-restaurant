@@ -1,42 +1,34 @@
 /* Color variables */
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Cormorant');
 
 $primary-color:#48AECB;
-
 $body-font-color: #818181;
-
 $font-color-dark: #303030;
-
 $font-color-lite:#fff;
-
 $body-font:400 15px 'Playfair Display', sans-serif;
-
 $post-title-color: #4e7496;
-
 $section-title-color: #333;
-
 $section-title-size:16px;
 /* NavBar */
 $navbar-font-family: 'Playfair Display', sans-serif;
+$navbar-font-size: 16px;
+$navbar-height: 70px;
+$navbar-padding-top: $navbar-height/3;
+$navbar-bg-color: #fff;
+$navbar-link-color: #303030;
 
 $navbar-brand-font-color: #00bfff	;
-
-$navbar-font-size: 16px;
-
 $navbar-brand-font-size: 22px;
-
-$navbar-height: 70px;
-
-$navbar-padding-top: $navbar-height/3;
-
-$navbar-bg-color: #fff;
-
-$navbar-link-color: #303030;
+$navbar-brand-font-family: "Cormorant", serif;
 
 /*Paralax slide var*/
 $section-bg-color:rgb(246, 246, 246);
-
 $bg-slide:url('img/bar-image.png') 50% 0 no-repeat fixed;
-/* Carousel */
 
+/* Carousel */
 $carousel-h3-color:#ffece6;
+
+/* Footer */
+$footer-font-family:'Roboto', sans-serif;

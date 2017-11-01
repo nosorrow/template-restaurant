@@ -26,6 +26,8 @@
   color: $navbar-brand-font-color !important;
   font-size: $navbar-brand-font-size;
   font-weight: bold;
+  font-family: $navbar-brand-font-family;
+  font-style: italic;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {

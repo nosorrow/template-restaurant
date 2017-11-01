@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
@@ -18,6 +19,11 @@
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<div class="facebook-left">
+    <a href="https://www.facebook.com/Chefs-Family-Bar-Kitchen-1991656841061317/" target="_blank">
+        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+    </a>
+</div>
 <!-- ------------------------ Navbar ----------------------------->
 <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
@@ -27,14 +33,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#myPage">Restaurant Name</a>
+            <a class="navbar-brand" href="#myPage">Chefs Family Bar Kitchen</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#about">Ресторантът</a></li>
                 <li><a href="#menu">Меню</a></li>
+                <li><a href="#chef">The Chef</a></li>
                 <li><a href="#order">Онлайн поръчка</a></li>
-                <li><a href="#chef">Шефът</a></li>
                 <li><a href="#contact">Контакти</a></li>
             </ul>
         </div>
@@ -51,29 +57,29 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="img/oktopod.jpg" alt="Restaurant" style="height: 600px">
+            <img src="img/oktopod.jpg" alt="Restaurant" class="img-responsive">
             <div class="carousel-caption">
                 <h1>Taste of the East</h1>
                 <h3>I'm a paragraph. here add your own text and edit me.</h3>
-                <p><a class="btn btn-lg btn-default btn-outline" href="#" role="button">поръчай</a></p>
+                <p><a class="btn btn-lg btn-warning btn-resized" href="#" role="button">поръчай</a></p>
             </div>
         </div>
 
         <div class="item">
-            <img src="img/furna.jpg" alt="Furna" style="height: 600px">
+            <img src="img/furna.jpg" alt="Furna"  class="img-responsive">
             <div class="carousel-caption">
                 <h1>Taste of the East</h1>
                 <h3>I'm a paragraph. here add your own text and edit me.</h3>
-                <p><a class="btn btn-lg btn-default btn-outline" href="#" role="button">поръчай</a></p>
+                <p><a class="btn btn-lg btn-info btn-resized" href="#" role="button">поръчай</a></p>
             </div>
         </div>
 
         <div class="item">
-            <img src="img/shots.jpg" alt="Shots" style="height: 600px">
+            <img src="img/shots.jpg" alt="Shots"  class="img-responsive">
             <div class="carousel-caption">
                 <h1>Taste of the East</h1>
                 <h3>I'm a paragraph. here add your own text and edit me.</h3>
-                <p><a class="btn btn-lg btn-default btn-outline" href="#" role="button">поръчай</a></p>
+                <p><a class="btn btn-lg btn-success btn-resized" href="#" role="button">поръчай</a></p>
             </div>
         </div>
     </div>
@@ -327,5 +333,26 @@
 <!-- -------------- Template -  JavaScript ------------------------------------------- -->
 <script src="js/template-js.js"></script>
 <script src="js/js.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+    window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#252e39"
+                },
+                "button": {
+                    "background": "#14a7d0"
+                }
+            },
+            "theme": "edgeless",
+            "content": {
+                "message": "Този сайт използва бисквитки (cookies). ",
+                "dismiss": "Съгласен съм!",
+                "link": "Научи повече",
+                "href": "https://www.google.com/intl/bg/policies/technologies/cookies/"
+            }
+        })});
+</script>
 </body>
 </html>
