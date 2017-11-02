@@ -5,14 +5,13 @@
     <title>Template-Restaurant</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico">
-    <link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic-ext' rel='stylesheet'
-          type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
     <link rel="stylesheet" type="text/css"
           href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 <div class="facebook-left">
@@ -29,7 +28,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#myPage">Chefs Family Bar Kitchen</a>
+            <a class="navbar-brand" href="#myPage">Chefs Family Bar & Kitchen</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
@@ -102,8 +101,7 @@
             <img id="img-about" class="img-responsive image-about" src="img/rest-dish.png">
         </div>
         <div class="col-xs-12 col-sm-6 text-about">
-            <h2 class="post-title">Lorem ipsum..</h2>
-
+            <h2 class="post-title" contenteditable="true">Lorem ipsum..</h2>
             <p class="p-about">
                 The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
                 consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor
@@ -224,19 +222,19 @@
         <div class="row">
             <hr>
             <div class="gal">
-                <img src="img/gal/salmon.jpg" alt="01">
-                <img src="img/gal/frape.jpg" alt="01">
-                <img src="img/gal/burger-1.jpg" alt="01">
-                <img src="img/gal/food-4.jpg" alt="01">
-                <img src="img/gal/uzzo.jpg" alt="01">
-                <img src="img/gal/oktopod.jpg" alt="01">
-                <img src="img/gal/rest-2.jpg" alt="01">
-                <img src="img/gal/food-1.jpg" alt="01">
-                <img src="img/gal/palachinka.jpg" alt="01">
-                <img src="img/gal/fresh.jpg" alt="01">
-                <img src="img/gal/bar-image.jpg" alt="01">
-                <img src="img/gal/food-2.jpg" alt="01">
-                <img src="img/gal/desert.jpg" alt="01">
+                <img src="img/gal/salmon.jpg" alt="From our kitchen">
+                <img src="img/gal/frape.jpg" alt="From our kitchen">
+                <img src="img/gal/burger-1.jpg" alt="From our kitchen">
+                <img src="img/gal/food-4.jpg" alt="From our kitchen">
+                <img src="img/gal/uzzo.jpg" alt="From our kitchen">
+                <img src="img/gal/oktopod.jpg" alt="From our kitchen">
+                <img src="img/gal/rest-2.jpg" alt="From our kitchen">
+                <img src="img/gal/food-1.jpg" alt="From our kitchen">
+                <img src="img/gal/palachinka.jpg" alt="From our kitchen">
+                <img src="img/gal/fresh.jpg" alt="From our kitchen">
+                <img src="img/gal/bar-image.jpg" alt="From our kitchen">
+                <img src="img/gal/food-2.jpg" alt="From our kitchen">
+                <img src="img/gal/desert.jpg" alt="From our kitchen">
             </div>
         </div>
     </div>
@@ -329,6 +327,7 @@
 <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.4/scrollreveal.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/template-js.js"></script>
+<script src="js/lightbox.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 <script>
     window.addEventListener("load", function () {

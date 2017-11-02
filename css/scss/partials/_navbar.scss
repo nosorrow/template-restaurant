@@ -28,6 +28,10 @@
   font-weight: bold;
   font-family: $navbar-brand-font-family;
   font-style: italic;
+  letter-spacing: 2px;
+  @media screen and (max-width: 320px){
+    font-size: 18px;
+  }
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
