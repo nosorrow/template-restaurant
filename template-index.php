@@ -55,7 +55,7 @@
             <div class="carousel-color-filter" style="background-color:#000"></div>
             <div class="carousel-caption">
                 <h1 style="color: yellow;">Taste of the East</h1>
-                <h3>I'm a paragraph. here add your own text and edit me.</h3>
+                <h3>I'm a paragraph. Here can add your own text.</h3>
                 <p><a class="btn btn-lg btn-warning btn-resized" href="#" role="button">поръчай</a></p>
             </div>
         </div>
@@ -64,7 +64,7 @@
             <div class="carousel-color-filter" style="background-color:#000"></div>
             <div class="carousel-caption">
                 <h1>Taste of the East</h1>
-                <h3>I'm a paragraph. here add your own text and edit me.</h3>
+                <h3>I'm a paragraph. Here can add your own text.</h3>
                 <p><a class="btn btn-lg btn-info btn-resized" href="#" role="button">поръчай</a></p>
             </div>
         </div>
@@ -73,7 +73,7 @@
             <div class="carousel-color-filter" style="background-color:#000"></div>
             <div class="carousel-caption">
                 <h1>Taste of the East</h1>
-                <h3>I'm a paragraph. here add your own text and edit me.</h3>
+                <h3>I'm a paragraph. Here can add your own text.</h3>
                 <p><a class="btn btn-lg btn-success btn-resized" href="#" role="button">поръчай</a></p>
             </div>
         </div>
