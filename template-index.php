@@ -5,13 +5,12 @@
     <title>Template-Restaurant</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
     <link rel="stylesheet" type="text/css"
           href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 <div class="facebook-left">
@@ -325,9 +324,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.4/scrollreveal.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/template-js.js"></script>
-<script src="js/lightbox.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/template-js.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 <script>
     window.addEventListener("load", function () {
