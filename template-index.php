@@ -106,9 +106,10 @@
             <h2 class="post-title">Lorem ipsum..</h2>
             <div class="section-text-left">
                 <p class="p-about">
-                    The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                    The Borovitza wine tasting event planned for Friday 3rd
+                    November will now take place at the Chefs Family Bar Restaurant in Vidin.
+                    There will be a cover charge of 12.50 Lv to include tasting wines and canapes.
+                    The evening starts at 6.30pm
                 </p>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
