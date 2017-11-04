@@ -21,16 +21,23 @@ $(document).ready(function () {
         }
     });
 
-// Hide #gohome for small devices
-    $(window).scroll(function() {
-
-        if (($(this).width() < 480) || ($(window).scrollTop() <=(x - 45))) {
+    // Hide #gohome for small devices
+    $(window).scroll(function () {
+        if (($(this).width() < 480) || ($(window).scrollTop() <= (x - 45))) {
 
             $('#gohome').hide();
 
         } else {
 
             $('#gohome').show();
+            // Change color in footer
+            if ((($(window).scrollTop() + x) >= (document.body.scrollHeight - 250))) {
+                $('#gohome').addClass('home-down');
+            } else {
+                $('#gohome').removeClass('home-down');
+
+            }
+
         }
     });
 
@@ -70,4 +77,4 @@ $(window).scroll(function () {
 });
 // -------------- ScrollReveal ----------------
 window.sr = ScrollReveal();
-sr.reveal('#img-about, #img-pool, #img-restaurant,#img-bar',{ duration: 2000 });
+sr.reveal('#img-about, #img-pool, #img-restaurant,#img-bar', {duration: 2000});

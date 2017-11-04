@@ -58,13 +58,30 @@ h4.section-title {
     color: $primary-color;
   }
 }
-
-.text-about {
-  padding: 10px 10px 10px 10px;
+.section-text{
+  padding: 15px 15px 15px 15px;
+  p{
+    letter-spacing: 1px;
+  }
+}
+.section-text-left {
+  @extend .section-text;
   max-width: 500px;
+  border-top: 3px solid rgba(147,255,207, 0.5);
+  border-right: 3px solid rgba(147,255,207, 0.5);
+  border-bottom: 3px solid rgba(147,255,207, 0.5);
 
-  ul li {
-    font-size: 16px;
+}
+
+.section-text-menu {
+  @extend .section-text;
+  max-width: 600px;
+  border-top: 3px solid rgba(147,255,207, 0.5);
+  border-left: 3px solid rgba(147,255,207, 0.5);
+  border-bottom: 3px solid rgba(147,255,207, 0.5);
+
+  p{
+    font-style: italic;
   }
 }
 
@@ -73,17 +90,7 @@ h4.section-title {
 }
 
 .image-about {
-  padding: 10px 10px 10px 10px;
-}
-
-.text-menu {
-  padding: 10px 10px 10px 10px;
-  max-width: 500px;
-
-  p{
-    font-style: italic;
-  }
-
+ // padding: 10px 10px 10px 10px;
 }
 
 .full-menu-link {
@@ -115,6 +122,7 @@ h4.section-title {
 .gallery {
   padding: 10px 0 10px 0;
 }
+
 .btn-resized{
   width: 250px;
   height: 57px;
@@ -164,8 +172,11 @@ h4.section-title {
     color: #fff;
   }
 }
+.home-down{
+  background-color: #93ffd0;
+}
 /* ---------------- Facebook left btn ----------------*/
-.facebook-left{
+.social-icon-left{
   font-size: 30px;
   position: fixed;
   top: 50%;

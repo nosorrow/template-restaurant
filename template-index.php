@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-<div class="facebook-left">
+<div class="social-icon-left">
     <a href="https://www.facebook.com/Chefs-Family-Bar-Kitchen-1991656841061317/" target="_blank">
-        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-facebook-official fa-2x" aria-hidden="true""></i>
     </a>
 </div>
 <!-- ------------------------ Navbar ----------------------------->
@@ -47,12 +47,12 @@
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
-
     </ol>
     <!-- Wrapper for slides -->
-    <div class="carousel-inner">
+    <div class="carousel-inner" style="background-color: #0a0a0a !important;">
         <div class="item active">
             <img src="img/oktopod.jpg" alt="Restaurant" class="img-responsive">
+            <div class="carousel-color-filter" style="background-color:#000"></div>
             <div class="carousel-caption">
                 <h1 style="color: yellow;">Taste of the East</h1>
                 <h3>I'm a paragraph. here add your own text and edit me.</h3>
@@ -61,6 +61,7 @@
         </div>
         <div class="item">
             <img src="img/furna.jpg" alt="Furna" class="img-responsive">
+            <div class="carousel-color-filter" style="background-color:#000"></div>
             <div class="carousel-caption">
                 <h1>Taste of the East</h1>
                 <h3>I'm a paragraph. here add your own text and edit me.</h3>
@@ -69,6 +70,7 @@
         </div>
         <div class="item">
             <img src="img/shots.jpg" alt="Shots" class="img-responsive">
+            <div class="carousel-color-filter" style="background-color:#000"></div>
             <div class="carousel-caption">
                 <h1>Taste of the East</h1>
                 <h3>I'm a paragraph. here add your own text and edit me.</h3>
@@ -77,6 +79,7 @@
         </div>
         <div class="item">
             <img src="img/chefRest.jpg" alt="Shots" class="img-responsive">
+            <div class="carousel-color-filter" style="background-color:#000"></div>
         </div>
     </div>
     <!-- Left and right controls -->
@@ -99,18 +102,20 @@
         <div class="col-sm-6">
             <img id="img-about" class="img-responsive image-about" src="img/rest-dish.png">
         </div>
-        <div class="col-xs-12 col-sm-6 text-about">
-            <h2 class="post-title" contenteditable="true">Lorem ipsum..</h2>
-            <p class="p-about">
-                The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
-                consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-            </p>
-            <p>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum consectetur adipiscing elit,
-                sed do eiusmod temporincididunt ut labore et dolore magna aliqua.
-            </p>
+        <div class="col-xs-12 col-sm-6">
+            <h2 class="post-title">Lorem ipsum..</h2>
+            <div class="section-text-left">
+                <p class="p-about">
+                    The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                </p>
+                <p>
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum consectetur adipiscing elit,
+                    sed do eiusmod temporincididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
         </div>
     </div><!-- End row -->
 </div>
@@ -122,7 +127,7 @@
     </div>
     <div class="row">
         <div class="col-xs-12 col-sm-6">
-            <div class="text-menu">
+            <div class="section-text-menu">
                 <div class="row slideanim">
                     <div class="col-sm-9">
                         <h4>Телешки домашен бургер 'The Chef'</h4>
@@ -195,17 +200,19 @@
         <hr class="hr hr-double">
     </div>
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-6">
             <img src="img/chef-2.jpg" alt="chef" class="img-responsive slideanim">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
             <h2 class="post-title">Среща с шеф Манчев</h2>
-            <p class="text-about">
-                A calm, pleasant, helpful and hardworking individual who has a passion for great
-                food and who enjoys cooking mouth watering dishes. Charles gets a real buzz out of
-                working in a busy kitchen, and great pleasure out of seeing happy faces enjoying a
-                good meal that he has cooked.
-            </p>
+            <div class="section-text-left">
+                <p>
+                    A calm, pleasant, helpful and hardworking individual who has a passion for great
+                    food and who enjoys cooking mouth watering dishes. Charles gets a real buzz out of
+                    working in a busy kitchen, and great pleasure out of seeing happy faces enjoying a
+                    good meal that he has cooked.
+                </p>
+            </div>
         </div>
 
     </div>
@@ -221,7 +228,7 @@
         <div class="row">
             <hr>
             <div class="gal">
-                <img src="img/gal/salmon.jpg" alt="From our kitchen">
+                <img src="img/gal/salmon.jpg" alt="From our kitchen" class="color-filter">
                 <img src="img/gal/frape.jpg" alt="From our kitchen">
                 <img src="img/gal/burger-1.jpg" alt="From our kitchen">
                 <img src="img/gal/food-4.jpg" alt="From our kitchen">

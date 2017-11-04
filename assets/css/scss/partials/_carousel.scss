@@ -3,34 +3,37 @@
   height: 600px;
   margin-bottom: 60px;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
   top: 30%;
 
-  h1{
+  h1 {
     font-size: 96px;
   }
-  h3{
-    color:$carousel-h3-color ;
+  h3 {
+    color: $carousel-h3-color;
   }
 }
+
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 600px;
   background-color: #777;
 }
+
 .carousel-control.right, .carousel-control.left {
   background-image: none;
-  color: yellow//$primary-color;
+  color: yellow //$primary-color;
 }
 
 .carousel-indicators li {
-  border-color: yellow;//$primary-color;
+  border-color: yellow; //$primary-color;
 }
 
 .carousel-indicators li.active {
-  background-color: yellow;//$primary-color;
+  background-color: yellow; //$primary-color;
 }
 
 .item h4 {
@@ -53,8 +56,15 @@
   height: 600px;
 }
 
+.carousel-color-filter {
+  height: 600px;
+  position: relative;
+  opacity: 0.35;
+
+}
+
 //# Mobile
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   .carousel {
     width: 300px;
     height: 180px;
@@ -81,14 +91,14 @@
     z-index: 10;
     top: 0;
 
-    h1{
+    h1 {
       font-size: 24px;
     }
-    h3{
+    h3 {
       font-size: 10px;
-      color:$carousel-h3-color ;
+      color: $carousel-h3-color;
     }
-    .btn-resized{
+    .btn-resized {
       width: 150px;
       height: 33px;
       font-size: 10px;
