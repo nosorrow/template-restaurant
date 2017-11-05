@@ -31,6 +31,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
+                <p id="info"></p>
                 <li><a href="#about">Ресторантът</a></li>
                 <li><a href="#menu">Меню</a></li>
                 <li><a href="#chef">The Chef</a></li>
@@ -355,6 +356,10 @@
             }
         })
     });
+
+    var elementHeight = $(".carousel-inner > .item > img").height();
+    var element = $(window).width();
+    $(".carousel-color-filter").css("height", elementHeight + "px");
 </script>
 </body>
 </html>
