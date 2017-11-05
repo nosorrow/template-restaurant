@@ -27,7 +27,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#myPage">Chefs Family Bar<br> & Kitchen</a>
+            <a class="navbar-brand" href="#myPage">
+                Chefs Family Bar<br> & Kitchen
+            </a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
@@ -40,7 +42,7 @@
         </div>
     </div>
 </nav>
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3500">
     <!-- Indicators -->
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
