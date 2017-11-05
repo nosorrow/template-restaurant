@@ -1,19 +1,21 @@
 /* Carousel base class */
 .carousel {
-  height: 600px;
+  max-height: 600px;
   margin-bottom: 60px;
 }
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  top: 30%;
+  top: 10%;
 
-  h1 {
-    font-size: 96px;
+  .carousel-heading-1 {
+    font-size: 85px;
   }
-  h3 {
+  .carousel-heading-3 {
     color: $carousel-h3-color;
+    font-size: 25px;
+
   }
 }
 

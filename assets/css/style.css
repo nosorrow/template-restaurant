@@ -72,17 +72,18 @@
     height: auto; } }
 /* Carousel base class */
 .carousel {
-  height: 600px;
+  max-height: 600px;
   margin-bottom: 60px; }
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  top: 30%; }
-  .carousel-caption h1 {
-    font-size: 96px; }
-  .carousel-caption h3 {
-    color: #ffece6; }
+  top: 10%; }
+  .carousel-caption .carousel-heading-1 {
+    font-size: 85px; }
+  .carousel-caption .carousel-heading-3 {
+    color: #ffece6;
+    font-size: 25px; }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
