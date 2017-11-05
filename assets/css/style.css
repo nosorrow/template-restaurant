@@ -1,9 +1,8 @@
 /* Restaurant site template*/
 /* Color variables */
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script");
-@import url("https://fonts.googleapis.com/css?family=Forum");
+@import url("https://fonts.googleapis.com/css?family=Lora");
 /* NavBar */
 /*Paralax slide var*/
 /* Carousel */
@@ -23,7 +22,7 @@
   height: 70px;
   padding: 23.33333px 10px;
   font-size: 16px !important;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Lora", serif;
   line-height: 1.42857143 !important;
   letter-spacing: 4px; }
 
@@ -71,17 +70,19 @@
     height: auto; } }
 /* Carousel base class */
 .carousel {
-  height: 600px;
-  margin-bottom: 60px; }
+  height: 600px; }
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  top: 30%; }
+  top: 20%; }
   .carousel-caption .carousel-heading {
-    font-size: 96px; }
+    font-size: 85px;
+    margin-bottom: 0;
+    padding-bottom: 0; }
   .carousel-caption .carousel-heading3 {
-    color: #ffece6; }
+    color: #ffece6;
+    font-size: 26px; }
 
 /* Declare heights because of positioning of images element */
 .carousel .item {
@@ -193,7 +194,7 @@
   color: #fff; }
 
 body {
-  font: 400 15px "Playfair Display", sans-serif;
+  font: 400 15px "Lora", serif;
   line-height: 1.8;
   color: #818181;
   padding-top: 70px; }

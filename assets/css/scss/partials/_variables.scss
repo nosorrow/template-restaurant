@@ -1,18 +1,17 @@
 /* Color variables */
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
-@import url('https://fonts.googleapis.com/css?family=Forum');
+@import url('https://fonts.googleapis.com/css?family=Lora');
 $primary-color:#48AECB;
 $body-font-color: #818181;
 $font-color-dark: #303030;
 $font-color-lite:#fff;
-$body-font:400 15px 'Playfair Display', sans-serif;
+$body-font:400 15px 'Lora', serif;
 $post-title-color: #4e7496;
 $section-title-color: #333;
 $section-title-size:16px;
 /* NavBar */
-$navbar-font-family: 'Playfair Display', sans-serif;
+$navbar-font-family: 'Lora', serif;
 $navbar-font-size: 16px;
 $navbar-height: 70px;
 $navbar-padding-top: $navbar-height/3;
