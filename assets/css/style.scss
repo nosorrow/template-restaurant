@@ -1,6 +1,5 @@
-/*
-* Restaurant site template
-*/
+
+/* Restaurant site template*/
 @import 'scss/partials/variables';
 @import 'scss/partials/navbar';
 @import 'scss/partials/footer';
@@ -14,7 +13,7 @@ body {
   padding-top: 70px;
 }
 
-hr.hr-double {
+.hr-double {
   border-top: 4px double !important;
 }
 
@@ -25,7 +24,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-h2.post-title {
+.post-title {
   color: $post-title-color;
   font-style: italic;
 }
@@ -37,7 +36,7 @@ h4 {
   font-weight: 400;
 }
 
-h4.section-title {
+.section-title {
   color: $section-title-color;
   text-transform: uppercase;
   font-size: $section-title-size;
@@ -204,11 +203,13 @@ h4.section-title {
 @keyframes slide {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(70%);
+    transform: translateY(70%);
+
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+
   }
 }
 
