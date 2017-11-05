@@ -1,4 +1,6 @@
-/* Restaurant site template*/
+/*
+* Restaurant site template
+*/
 /* Color variables */
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script");
@@ -16,9 +18,6 @@
   background-color: #fff;
   border-radius: 0;
   border: 0; }
-  @media screen and (max-width: 768px) {
-    .navbar {
-      height: 60px !important; } }
 
 .navbar li a {
   color: #333 !important;
@@ -35,12 +34,10 @@
   font-weight: bold;
   font-family: "Dancing Script", cursive;
   font-style: italic;
-  letter-spacing: 2px;
-  text-align: center;
-  padding: 10px; }
+  letter-spacing: 2px; }
   @media screen and (max-width: 320px) {
     .navbar .navbar-brand {
-      font-size: 20px; } }
+      font-size: 18px; } }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
   background-color: #fff !important;
@@ -75,27 +72,23 @@
     height: auto; } }
 /* Carousel base class */
 .carousel {
-  height: 600px; }
+  height: 600px;
+  margin-bottom: 60px; }
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  top: 20%; }
-  .carousel-caption .carousel-heading {
-    font-size: 85px;
-    margin-bottom: 0;
-    padding-bottom: 0; }
-  .carousel-caption .carousel-heading3 {
-    color: #ffece6;
-    font-size: 26px; }
+  top: 30%; }
+  .carousel-caption h1 {
+    font-size: 96px; }
+  .carousel-caption h3 {
+    color: #ffece6; }
 
-/* Declare heights because of positioning of images element */
+/* Declare heights because of positioning of img element */
 .carousel .item {
   height: 600px;
   background-color: #777; }
 
-/* declare responsive image */
-/* ------------------------------------ */
 .carousel-control.right, .carousel-control.left {
   background-image: none;
   color: yellow; }
@@ -106,6 +99,13 @@
 .carousel-indicators li.active {
   background-color: yellow; }
 
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px 0; }
+
 .item span {
   font-style: normal; }
 
@@ -114,8 +114,7 @@
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 600px;
-  max-width: 100%; }
+  height: 600px; }
 
 .carousel-color-filter {
   height: 600px;
@@ -147,9 +146,9 @@
   .carousel-caption {
     z-index: 10;
     top: 0; }
-    .carousel-caption .carousel-heading {
+    .carousel-caption h1 {
       font-size: 24px; }
-    .carousel-caption .carousel-heading3 {
+    .carousel-caption h3 {
       font-size: 10px;
       color: #ffece6; }
     .carousel-caption .btn-resized {
@@ -198,6 +197,7 @@
 
 /* On hover, the color of .btn will transition to white with black text */
 .btn-black:hover {
+  border: 1px solid #333;
   background-color: #333;
   color: #fff; }
 
@@ -207,7 +207,7 @@ body {
   color: #818181;
   padding-top: 70px; }
 
-.hr-double {
+hr.hr-double {
   border-top: 4px double !important; }
 
 h2 {
@@ -216,7 +216,7 @@ h2 {
   font-weight: 600;
   margin-bottom: 30px; }
 
-.post-title {
+h2.post-title {
   color: #4e7496;
   font-style: italic; }
 
@@ -226,7 +226,7 @@ h4 {
   color: #303030;
   font-weight: 400; }
 
-.section-title {
+h4.section-title {
   color: #333;
   text-transform: uppercase;
   font-size: 16px;
@@ -358,10 +358,10 @@ h4 {
 @keyframes slide {
   0% {
     opacity: 0;
-    transform: translateY(70%); }
+    -webkit-transform: translateY(70%); }
   100% {
     opacity: 1;
-    transform: translateY(0%); } }
+    -webkit-transform: translateY(0%); } }
 @-webkit-keyframes slide {
   0% {
     opacity: 0;

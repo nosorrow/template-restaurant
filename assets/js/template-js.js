@@ -1,5 +1,5 @@
 /**
- * Created by Plamen on 30.10.2017 г..
+ * Created by Plamen on 7.5.2016 г..
  */
 
 // Show - Hide navbar - > ScrollDown
@@ -77,4 +77,4 @@ $(window).scroll(function () {
 });
 // -------------- ScrollReveal ----------------
 window.sr = ScrollReveal();
-sr.reveal('#images-about, #images-pool, #images-restaurant,#images-bar', {duration: 2000});
+sr.reveal('#img-about, #img-pool, #img-restaurant,#img-bar', {duration: 2000});
