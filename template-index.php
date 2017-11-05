@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="bg">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Template-Restaurant</title>
@@ -15,10 +15,10 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 <div class="social-icon-left">
     <a href="https://www.facebook.com/Chefs-Family-Bar-Kitchen-1991656841061317/" target="_blank">
-        <i class="fa fa-facebook-official fa-2x" aria-hidden="true""></i>
+        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
     </a>
 </div>
-<!-- ------------------------ Navbar ----------------------------->
+<!--  Navbar -->
 <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -51,34 +51,34 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" style="background-color: #0a0a0a !important;">
         <div class="item active">
-            <img src="img/oktopod.jpg" alt="Restaurant" class="img-responsive">
+            <img src="images/oktopod.jpg" alt="Restaurant" class="img-responsive">
             <div class="carousel-color-filter" style="background-color:#000"></div>
             <div class="carousel-caption">
-                <h1 style="color: yellow;">Taste of the East</h1>
-                <h3>I'm a paragraph. Here can add your own text.</h3>
+                <p class="carousel-heading" style="color: yellow;">Taste of the East</p>
+                <p class="carousel-heading3">I'm a paragraph. Here can add your own text.</p>
                 <p><a class="btn btn-lg btn-warning btn-resized" href="#" role="button">поръчай</a></p>
             </div>
         </div>
         <div class="item">
-            <img src="img/furna.jpg" alt="Furna" class="img-responsive">
+            <img src="images/furna.jpg" alt="Furna" class="img-responsive">
             <div class="carousel-color-filter" style="background-color:#000"></div>
             <div class="carousel-caption">
-                <h1>Taste of the East</h1>
-                <h3>I'm a paragraph. Here can add your own text.</h3>
+                <p class="carousel-heading">Taste of the East</p>
+                <p class="carousel-heading3">I'm a paragraph. Here can add your own text.</p>
                 <p><a class="btn btn-lg btn-info btn-resized" href="#" role="button">поръчай</a></p>
             </div>
         </div>
         <div class="item">
-            <img src="img/shots.jpg" alt="Shots" class="img-responsive">
+            <img src="images/shots.jpg" alt="Shots" class="img-responsive">
             <div class="carousel-color-filter" style="background-color:#000"></div>
             <div class="carousel-caption">
-                <h1>Taste of the East</h1>
-                <h3>I'm a paragraph. Here can add your own text.</h3>
+                <p class="carousel-heading">Taste of the East</p>
+                <p class="carousel-heading3">I'm a paragraph. Here can add your own text.</p>
                 <p><a class="btn btn-lg btn-success btn-resized" href="#" role="button">поръчай</a></p>
             </div>
         </div>
         <div class="item">
-            <img src="img/chefRest.jpg" alt="Shots" class="img-responsive">
+            <img src="images/chefRest.jpg" alt="Shots" class="img-responsive">
             <div class="carousel-color-filter" style="background-color:#000"></div>
         </div>
     </div>
@@ -92,7 +92,7 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-<!-- ------------------- Add (About container) --------------------------------- -->
+<!--  Add (About container) -->
 <div id="about" class="container container-padding">
     <div class="row text-center">
         <h4 class="section-title">ресторантът</h4>
@@ -100,7 +100,7 @@
     </div>
     <div class="row">
         <div class="col-sm-6">
-            <img id="img-about" class="img-responsive image-about" src="img/rest-dish.png">
+            <img id="img-about" class="img-responsive image-about" src="images/rest-dish.png" alt="image">
         </div>
         <div class="col-xs-12 col-sm-6">
             <h2 class="post-title">Lorem ipsum..</h2>
@@ -120,7 +120,7 @@
         </div>
     </div><!-- End row -->
 </div>
-<!-- --------------- Container Add( Menu ) ----------------- -->
+<!-- Container Add( Menu ) -->
 <div class="container container-padding" id="menu">
     <div class="row text-center">
         <h4 class="section-title">специалното ни меню</h4>
@@ -184,7 +184,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <img id="img-bar" src="img/rest-dish-1.jpg" class="img-responsive">
+            <img id="img-bar" src="images/rest-dish-1.jpg" class="img-responsive" alt="image">
         </div>
     </div>
     <div class="row">
@@ -194,7 +194,7 @@
     </div>
 </div>
 <hr>
-<!-- ------------------- ADD Chef Container -------------->
+<!-- ADD Chef Container -->
 <div id="chef" class="container container-padding">
     <div class="row text-center">
         <h4 class="section-title">Главния готвач</h4>
@@ -202,7 +202,7 @@
     </div>
     <div class="row">
         <div class="col-md-6">
-            <img src="img/chef-2.jpg" alt="chef" class="img-responsive slideanim">
+            <img src="images/chef-2.jpg" alt="chef" class="img-responsive slideanim">
         </div>
         <div class="col-md-6">
             <h2 class="post-title">Среща с шеф Манчев</h2>
@@ -219,7 +219,7 @@
     </div>
 </div>
 
-<!-- ------------------- ADD Image Container -------------->
+<!-- ADD Image Container -->
 <div class="container-fluid">
     <div class="row text-center">
         <h4 class="section-title">От нашата кухня</h4>
@@ -229,25 +229,25 @@
         <div class="row">
             <hr>
             <div class="gal">
-                <img src="img/gal/salmon.jpg" alt="From our kitchen" class="color-filter">
-                <img src="img/gal/frape.jpg" alt="From our kitchen">
-                <img src="img/gal/burger-1.jpg" alt="From our kitchen">
-                <img src="img/gal/food-4.jpg" alt="From our kitchen">
-                <img src="img/gal/uzzo.jpg" alt="From our kitchen">
-                <img src="img/gal/oktopod.jpg" alt="From our kitchen">
-                <img src="img/gal/rest-2.jpg" alt="From our kitchen">
-                <img src="img/gal/food-1.jpg" alt="From our kitchen">
-                <img src="img/gal/palachinka.jpg" alt="From our kitchen">
-                <img src="img/gal/fresh.jpg" alt="From our kitchen">
-                <img src="img/gal/bar-image.jpg" alt="From our kitchen">
-                <img src="img/gal/food-2.jpg" alt="From our kitchen">
-                <img src="img/gal/desert.jpg" alt="From our kitchen">
+                <img src="images/gal/salmon.jpg" alt="From our kitchen" class="color-filter">
+                <img src="images/gal/frape.jpg" alt="From our kitchen">
+                <img src="images/gal/burger-1.jpg" alt="From our kitchen">
+                <img src="images/gal/food-4.jpg" alt="From our kitchen">
+                <img src="images/gal/uzzo.jpg" alt="From our kitchen">
+                <img src="images/gal/oktopod.jpg" alt="From our kitchen">
+                <img src="images/gal/rest-2.jpg" alt="From our kitchen">
+                <img src="images/gal/food-1.jpg" alt="From our kitchen">
+                <img src="images/gal/palachinka.jpg" alt="From our kitchen">
+                <img src="images/gal/fresh.jpg" alt="From our kitchen">
+                <img src="images/gal/bar-image.jpg" alt="From our kitchen">
+                <img src="images/gal/food-2.jpg" alt="From our kitchen">
+                <img src="images/gal/desert.jpg" alt="From our kitchen">
             </div>
         </div>
     </div>
 </div>
 
-<!-- ------------------- ADD Contact Container -- ------------>
+<!-- ADD Contact Container -->
 <div id="contact" class="container-fluid bg-grey container-padding">
     <div class="row text-center">
         <h4 class="section-title">къде се намираме</h4>
@@ -266,7 +266,7 @@
             </div>
         </div>
         <div class="col-sm-7">
-            <!-- ------------ Google map ---------------------- -->
+            <!-- Google map -->
             <!-- Set height and width with CSS -->
             <div id="googleMap" style="height:400px;width:100%;"></div>
             <!-- Add Google Maps -->
@@ -297,13 +297,13 @@
         </div>
     </div>
 </div>
-<!-- ---------------- GO HOME Button----------------------------------->
+<!-- GO HOME Button -->
 <div id="gohome" class="home">
     <a href="#myPage" title="To Top">
         <span class="glyphicon glyphicon-chevron-up"></span>
     </a>
 </div>
-<!-- ------------------- Footer ---------------------------------- -->
+<!-- Footer -->
 <div class="footer-style container-fluid container-padding">
     <div class="row">
         <div class="col-md-4 col-sm-12">
