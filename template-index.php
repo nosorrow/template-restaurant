@@ -53,34 +53,30 @@
     <div class="carousel-inner" style="background-color: #0a0a0a !important;">
         <div class="item active">
             <img src="images/oktopod.jpg" alt="Restaurant" class="img-responsive">
-            <div class="carousel-color-filter" style="background-color:#000"></div>
             <div class="carousel-caption">
-                <p class="carousel-heading" style="color: yellow;">Taste of the East</p>
-                <p class="carousel-heading3">I'm a paragraph. Here can add your own text.</p>
+                <h1 class="carousel-heading" style="color: yellow;">Taste of the East</h1>
+                <h3 class="carousel-heading3">I'm a paragraph. Here can add your own text.</h3>
                 <p><a class="btn btn-lg btn-warning btn-resized" href="#" role="button">поръчай</a></p>
             </div>
         </div>
         <div class="item">
             <img src="images/furna.jpg" alt="Furna" class="img-responsive">
-            <div class="carousel-color-filter" style="background-color:#000"></div>
             <div class="carousel-caption">
-                <p class="carousel-heading">Taste of the East</p>
-                <p class="carousel-heading3">I'm a paragraph. Here can add your own text.</p>
+                <h1 class="carousel-heading">Taste of the East</h1>
+                <h3 class="carousel-heading3">I'm a paragraph. Here can add your own text.</h3>
                 <p><a class="btn btn-lg btn-info btn-resized" href="#" role="button">поръчай</a></p>
             </div>
         </div>
         <div class="item">
             <img src="images/shots.jpg" alt="Shots" class="img-responsive">
-            <div class="carousel-color-filter" style="background-color:#000"></div>
             <div class="carousel-caption">
-                <p class="carousel-heading">Taste of the East</p>
-                <p class="carousel-heading3">I'm a paragraph. Here can add your own text.</p>
+                <h1 class="carousel-heading">Taste of the East</h1>
+                <h3 class="carousel-heading3">I'm a paragraph. Here can add your own text.</h3>
                 <p><a class="btn btn-lg btn-success btn-resized" href="#" role="button">поръчай</a></p>
             </div>
         </div>
         <div class="item">
             <img src="images/chefRest.jpg" alt="Shots" class="img-responsive">
-            <div class="carousel-color-filter" style="background-color:#000"></div>
         </div>
     </div>
     <!-- Left and right controls -->
@@ -357,9 +353,7 @@
         })
     });
 
-    var elementHeight = $(".carousel-inner > .item > img").height();
-    var element = $(window).width();
-    $(".carousel-color-filter").css("height", elementHeight + "px");
+
 </script>
 </body>
 </html>

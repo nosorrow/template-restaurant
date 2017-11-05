@@ -69,12 +69,15 @@
     text-align: left;
     height: auto; } }
 /* Carousel base class */
-/* Since positioning the image, we need to help out the caption */
+.carousel {
+  max-height: 600px; }
+
+/* caption */
 .carousel-caption {
   z-index: 10;
   top: 10%; }
   .carousel-caption .carousel-heading {
-    font-size: 85px;
+    font-size: 72px;
     margin-bottom: 0;
     padding-bottom: 0; }
   .carousel-caption .carousel-heading3 {
@@ -92,10 +95,13 @@
       font-size: 18px; } }
 
 /* Declare heights because of positioning of images element */
-/*.carousel .item {
-  height: 600px;
-  background-color: #777;
-}*/
+carousel .item {
+  background-color: #000; }
+
+.carousel-inner > .item > img {
+  filter: opacity(0.5); }
+
+/* navigation */
 .carousel-control.right, .carousel-control.left {
   background-image: none;
   color: yellow; }
@@ -105,19 +111,6 @@
 
 .carousel-indicators li.active {
   background-color: yellow; }
-
-.item span {
-  font-style: normal; }
-
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%; }
-
-.carousel-color-filter {
-  position: relative;
-  opacity: 0.45; }
 
 @media screen and (max-width: 320px) {
   .carousel {
