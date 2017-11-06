@@ -69,30 +69,34 @@
     text-align: left;
     height: auto; } }
 /* Carousel base class */
-.carousel {
-  max-height: 600px; }
-
 /* caption */
 .carousel-caption {
   z-index: 10;
-  top: 10%; }
-  .carousel-caption .carousel-heading {
+  /*.carousel-heading {
     font-size: 72px;
     margin-bottom: 0;
-    padding-bottom: 0; }
-  .carousel-caption .carousel-heading3 {
-    color: #ffece6;
-    font-size: 26px; }
-  @media screen and (max-width: 768px) {
-    .carousel-caption .carousel-caption {
-      top: 0; }
-    .carousel-caption .carousel-heading {
+    padding-bottom: 0;
+  }
+  .carousel-heading3 {
+    color: $carousel-h3-color;
+    font-size: 26px;
+  }
+
+  @media screen and (max-width: 768px){
+    .carousel-caption{
+      top:0
+    }
+    .carousel-heading {
       font-size: 35px;
       margin-bottom: 0;
-      padding-bottom: 0; }
-    .carousel-caption .carousel-heading3 {
-      color: #ffece6;
-      font-size: 18px; } }
+      padding-bottom: 0;
+    }
+    .carousel-heading3 {
+      color: $carousel-h3-color;
+      font-size: 18px;
+    }
+
+  }*/ }
 
 /* Declare heights because of positioning of images element */
 carousel .item {

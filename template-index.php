@@ -53,10 +53,12 @@
     <div class="carousel-inner" style="background-color: #0a0a0a !important;">
         <div class="item active">
             <img src="images/oktopod.jpg" alt="Restaurant" class="img-responsive">
-            <div class="carousel-caption">
-                <h1 class="carousel-heading" style="color: yellow;">Taste of the East</h1>
-                <h3 class="carousel-heading3">I'm a paragraph. Here can add your own text.</h3>
-                <p><a class="btn btn-lg btn-warning btn-resized" href="#" role="button">поръчай</a></p>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 class="carousel-heading" style="color: yellow;">Taste of the East</h1>
+                    <h3 class="carousel-heading3">I'm a paragraph. Here can add your own text.</h3>
+                    <p><a class="btn btn-lg btn-warning btn-resized" href="#" role="button">поръчай</a></p>
+                </div>
             </div>
         </div>
         <div class="item">
