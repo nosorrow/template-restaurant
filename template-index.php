@@ -319,10 +319,10 @@
                 <p><span class="glyphicon glyphicon-envelope"></span> e-mail@something.com</p>
                 <p><span class="glyphicon glyphicon-hourglass"></span> работно време: 09 - 24:00ч.</p>
                 <div class="social-icon-footer">
-                    <p>follow us</p>
-                    <a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                    <a style="display: inline-block" href="https://www.facebook.com/Chefs-Family-Bar-Kitchen-1991656841061317/" target="_blank">
+                        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                    </a>
+                    <p style="display: inline-block">follow us</p>
                 </div>
             </div>
             <div class="col-md-4 col-xs-12">

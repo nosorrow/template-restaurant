@@ -251,7 +251,7 @@ h4 {
   letter-spacing: 4px; }
 
 .container-padding {
-  padding: 60px 50px; }
+  padding: 60px 20px; }
 
 .paralax-slide {
   color: #fff;
@@ -358,6 +358,9 @@ h4 {
   top: 50%;
   left: 0;
   z-index: 999; }
+  @media screen and (max-width: 320px) {
+    .social-icon-left {
+      display: none; } }
 
 /* ---------------- Animation ------------------------*/
 .slideanim {

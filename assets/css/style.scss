@@ -46,7 +46,7 @@ h4 {
 }
 
 .container-padding {
-  padding: 60px 50px;
+  padding: 60px 20px;
 }
 
 .paralax-slide {
@@ -180,6 +180,9 @@ h4 {
   top: 50%;
   left: 0;
   z-index: 999;
+  @media screen and (max-width: 320px){
+    display:none;
+  }
 }
 /* ---------------- Animation ------------------------*/
 
