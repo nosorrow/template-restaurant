@@ -69,38 +69,35 @@
     text-align: left;
     height: auto; } }
 /* Carousel base class */
+.carousel {
+  max-height: 600px; }
+
 /* caption */
 .carousel-caption {
   z-index: 10;
-  /*.carousel-heading {
-    font-size: 72px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-  .carousel-heading3 {
-    color: $carousel-h3-color;
-    font-size: 26px;
-  }
-
-  @media screen and (max-width: 768px){
-    .carousel-caption{
-      top:0
-    }
-    .carousel-heading {
-      font-size: 35px;
+  top: 20%; }
+  @media screen and (min-width: 1200px) {
+    .carousel-caption .carousel-heading {
+      font-size: 72px;
       margin-bottom: 0;
-      padding-bottom: 0;
-    }
-    .carousel-heading3 {
-      color: $carousel-h3-color;
-      font-size: 18px;
-    }
+      padding-bottom: 0; }
+    .carousel-caption .carousel-heading3 {
+      color: #ffece6;
+      font-size: 26px; } }
+  @media screen and (min-width: 601px) and (max-width: 906px) {
+    .carousel-caption {
+      top: 0; }
+      .carousel-caption .carousel-heading {
+        font-size: 35px;
+        margin-bottom: 0;
+        padding-bottom: 0; }
+      .carousel-caption .carousel-heading3 {
+        color: #ffece6;
+        font-size: 18px; } }
 
-  }*/ }
-
-/* Declare heights because of positioning of images element */
-carousel .item {
-  background-color: #000; }
+/* Carousel imafe color filter*/
+.carousel-inner {
+  background-color: #0a0a0a; }
 
 .carousel-inner > .item > img {
   filter: opacity(0.5); }
