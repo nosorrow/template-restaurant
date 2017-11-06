@@ -10,12 +10,17 @@
 /* navbar styling */
 .changednav {
   display: none;
-  box-shadow: 1px 1px 8px #ccc; }
+  box-shadow: 1px 1px 8px #ccc;
+  background-color: #fff; }
 
 .navbar {
   background-color: #fff;
   border-radius: 0;
-  border: 0; }
+  border: 0;
+  height: 70px; }
+
+.navbar-collapse {
+  background-color: #fff; }
 
 .navbar li a {
   color: #333 !important;
@@ -70,7 +75,8 @@
     height: auto; } }
 /* Carousel base class */
 .carousel {
-  max-height: 600px; }
+  max-height: 600px;
+  margin-bottom: 50px; }
 
 /* caption */
 .carousel-caption {
@@ -117,7 +123,7 @@
   background-color: #000; }
 
 .carousel-inner > .item > img {
-  filter: opacity(0.65); }
+  filter: opacity(0.55); }
 
 .carousel-heading {
   color: #f9f698; }
@@ -136,8 +142,7 @@
 @media screen and (max-width: 320px) {
   .carousel {
     width: 320px;
-    height: 180px;
-    margin-bottom: 30px; }
+    height: 180px; }
 
   .carousel-indicators li {
     display: none; }
@@ -165,7 +170,8 @@
     .carousel-caption .btn-resized {
       width: 150px;
       height: auto;
-      font-size: 16px; } }
+      font-size: 16px;
+      margin: 0; } }
 /* ---------------- Bootstrap Button (outline)---------*/
 .btn-outline {
   border-width: 2px;
@@ -305,7 +311,8 @@ h4 {
   height: 57px;
   border-radius: 15px;
   vertical-align: middle;
-  font-size: 22px; }
+  font-size: 22px;
+  margin: 25px 0 15px 0; }
 
 @media screen and (max-width: 768px) {
   .col-sm-4 {

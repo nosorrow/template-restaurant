@@ -27,9 +27,10 @@ $section-bg-color:rgb(246, 246, 246);
 $bg-slide:url('img/bar-image.png') 50% 0 no-repeat fixed;
 
 /* Carousel */
-$carousel-h3-color: #ffece6;
-$carousel-navigation-color: #f9f698;
-$carousel-image-filter-color: #000;
-$carousel-heading-color: $carousel-navigation-color;
+$carousel-h3-color:#ffece6;
+$carousel-navigation-color:#f9f698;
+$carousel-image-filter-color:#000;
+$carousel-heading-color:$carousel-navigation-color;
+$carousel-image-opacity:opacity(0.55);
 /* Footer */
 $footer-font-family:'Roboto', sans-serif;

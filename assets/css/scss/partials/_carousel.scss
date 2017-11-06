@@ -1,6 +1,7 @@
 /* Carousel base class */
 .carousel {
   max-height: 600px;
+  margin-bottom: 50px;
 }
 
 /* caption */
@@ -67,7 +68,7 @@
 }
 
 .carousel-inner > .item > img {
-  filter: opacity(0.65)
+  filter: $carousel-image-opacity;
 }
 .carousel-heading{
   color: $carousel-heading-color;
@@ -91,7 +92,6 @@
   .carousel {
      width: 320px;
      height: 180px;
-     margin-bottom: 30px;
   }
 
   .carousel-indicators li {
@@ -124,6 +124,7 @@
       width: 150px;
       height: auto;
       font-size: 16px;
+      margin: 0;
     }
   }
 

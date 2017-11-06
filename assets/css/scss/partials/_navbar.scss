@@ -2,15 +2,19 @@
 .changednav {
   display: none;
   box-shadow: 1px 1px 8px #ccc;
+  background-color: $navbar-bg-color;
 }
 
 .navbar {
   background-color: $navbar-bg-color;
   border-radius: 0;
   border: 0;
-
+  height: $navbar-height;
 }
 
+.navbar-collapse{
+  background-color: $navbar-bg-color;
+}
 .navbar li a {
   color: #333 !important;
   height: $navbar-height;
