@@ -122,7 +122,7 @@
   background-color: #000; }
 
 .carousel-inner > .item > img {
-  filter: opacity(0.55); }
+  opacity: 0.55; }
 
 .carousel-heading {
   color: #f9f698; }

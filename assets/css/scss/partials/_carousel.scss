@@ -68,7 +68,7 @@
 }
 
 .carousel-inner > .item > img {
-  filter: $carousel-image-opacity;
+  opacity: $carousel-image-opacity;
 }
 .carousel-heading{
   color: $carousel-heading-color;
