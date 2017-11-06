@@ -31,7 +31,6 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <p id="info"></p>
                 <li><a href="#about">Ресторантът</a></li>
                 <li><a href="#menu">Меню</a></li>
                 <li><a href="#chef">The Chef</a></li>
@@ -366,10 +365,6 @@
         })
     });
 
-   /* $('#info').text($(window).width());
-    $(window).resize(function () {
-        $('#info').text($(window).width());
-    });*/
 </script>
 </body>
 </html>
