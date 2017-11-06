@@ -86,7 +86,7 @@
                 <div class="carousel-caption">
                     <h1 class="carousel-heading">Taste of the East</h1>
                     <h3 class="carousel-heading3">I'm a paragraph. Here can add your own text.</h3>
-                    <p><a class="btn btn-lg btn-warning btn-resized" href="#" role="button">поръчай</a></p>
+                    <p><a class="btn btn-lg btn-default btn-outline btn-resized" href="#" role="button">поръчай</a></p>
                 </div>
             </div>
         </div>
@@ -266,12 +266,10 @@
         <div class="col-sm-5 text-left">
             <div class="address">
                 <p>Адрес</p>
-
-                <p><span class="glyphicon glyphicon-map-marker"></span> Видин ул. "Гладстон" 25</p>
-
+                <p><span class="glyphicon glyphicon-map-marker"></span> Видин ул. "Гладстон" 27/p>
                 <p><span class="glyphicon glyphicon-phone"></span> +0359 88223314</p>
-
                 <p><span class="glyphicon glyphicon-envelope"></span> e-mail@something.com</p>
+                <p><span class="glyphicon glyphicon-hourglass"></span> работно време: 09 - 24:00ч.</p>
             </div>
         </div>
         <div class="col-sm-7">
@@ -313,28 +311,32 @@
     </a>
 </div>
 <!-- Footer -->
-<div class="footer-style container-fluid container-padding">
-    <div class="row">
-        <div class="col-md-4 col-sm-12">
-            <p>phone: +359 887123456</p>
-            <div class="social-icon-footer">
-                <p>follow us</p>
-                <a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+<div class="container-fluid footer-style">
+    <div class="">
+        <div class="row">
+            <div class="col-md-4 col-xs-12">
+                <p><span class="glyphicon glyphicon-phone"></span> +0359 88223314</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> e-mail@something.com</p>
+                <p><span class="glyphicon glyphicon-hourglass"></span> работно време: 09 - 24:00ч.</p>
+                <div class="social-icon-footer">
+                    <p>follow us</p>
+                    <a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                </div>
             </div>
-        </div>
-        <div class="col-md-4 col-sm-12">
-            <ul>
-                <li><a href="#">Ресторантът</a></li>
-                <li><a href="#">Меню</a></li>
-                <li><a href="#">Поръчка</a></li>
-                <li><a href="#">Къде сме</a></li>
-            </ul>
-        </div>
-        <div class="col-md-4 col-sm-12">
-            <p>2017 Bootstrap Theme created By</p>
-            <p>{ plamenorama@gmail.com }</p>
+            <div class="col-md-4 col-xs-12">
+                <ul>
+                    <li><a href="#">Ресторантът</a></li>
+                    <li><a href="#">Меню</a></li>
+                    <li><a href="#">Поръчка</a></li>
+                    <li><a href="#">Къде сме</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <p>2017 Bootstrap Theme created By</p>
+                <p>{ plamenorama@gmail.com }</p>
+            </div>
         </div>
     </div>
 </div>

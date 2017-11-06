@@ -1,11 +1,12 @@
 .footer-style {
-  height: 250px;
+  //height: 250px;
   background-color: #3d3536;
   color: $font-color-lite;
   font-family: $footer-font-family;
   [class^=col-]{
-    padding: 5px;
+    padding: 25px;
   }
+  
   .social-icon-footer a {
     color: #fff;
     i {

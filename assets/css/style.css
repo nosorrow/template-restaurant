@@ -49,12 +49,11 @@
   border-top-width: 3px !important; }
 
 .footer-style {
-  height: 250px;
   background-color: #3d3536;
   color: #fff;
   font-family: "Roboto", sans-serif; }
   .footer-style [class^=col-] {
-    padding: 5px; }
+    padding: 25px; }
   .footer-style .social-icon-footer a {
     color: #fff; }
     .footer-style .social-icon-footer a i {
