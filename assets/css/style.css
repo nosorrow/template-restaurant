@@ -94,46 +94,65 @@
       .carousel-caption .carousel-heading3 {
         color: #ffece6;
         font-size: 18px; } }
+  @media screen and (min-width: 320px) and (max-width: 601px) {
+    .carousel-caption .carousel-control.right, .carousel-caption .carousel-control.left {
+      display: none; }
+    .carousel-caption .carousel-indicators li {
+      display: none; }
+    .carousel-caption .carousel-caption {
+      z-index: 10;
+      top: 0; }
+      .carousel-caption .carousel-caption .carousel-heading {
+        font-size: 28px; }
+      .carousel-caption .carousel-caption .carousel-heading3 {
+        font-size: 16px;
+        color: #ffece6; }
+      .carousel-caption .carousel-caption .btn-resized {
+        width: 150px;
+        height: auto;
+        font-size: 12px; } }
 
 /* Carousel imafe color filter*/
 .carousel-inner {
-  background-color: #0a0a0a; }
+  background-color: #000; }
 
 .carousel-inner > .item > img {
   filter: opacity(0.5); }
 
+.carousel-heading {
+  color: #f9f698; }
+
 /* navigation */
 .carousel-control.right, .carousel-control.left {
   background-image: none;
-  color: yellow; }
+  color: #f9f698; }
 
 .carousel-indicators li {
-  border-color: yellow; }
+  border-color: y #f9f698; }
 
 .carousel-indicators li.active {
-  background-color: yellow; }
+  background-color: #f9f698; }
 
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 320px) {
   .carousel {
-    /* width: 300px;
-     height: 180px;
-     margin-bottom: 30px;*/ }
+    width: 320px;
+    height: 180px;
+    margin-bottom: 30px; }
 
   .carousel-indicators li {
     display: none; }
 
   .carousel .item {
-    /*width: 300px;
-    height: 180px;*/
-    background-color: #000; }
+    width: 320px;
+    height: 180px; }
 
   .carousel-inner > .item > img {
-    /*position: absolute;
+    position: absolute;
     top: 0;
     left: 0;
-    min-width: 100%;*/
-    /*width: 300px;
-    height: 180px;*/ }
+    min-width: 100%;
+    width: 320px;
+    height: 180px; }
 
   .carousel-caption {
     z-index: 10;

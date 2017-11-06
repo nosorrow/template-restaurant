@@ -55,7 +55,7 @@
             <img src="images/oktopod.jpg" alt="Restaurant" class="img-responsive">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 class="carousel-heading" style="color: yellow;">Taste of the East</h1>
+                    <h1 class="carousel-heading">Taste of the East</h1>
                     <h3 class="carousel-heading3">I'm a paragraph. Here can add your own text.</h3>
                     <p><a class="btn btn-lg btn-warning btn-resized" href="#" role="button">поръчай</a></p>
                 </div>
@@ -65,7 +65,7 @@
             <img src="images/furna.jpg" alt="Furna" class="img-responsive">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 class="carousel-heading" style="color: yellow;">Taste of the East</h1>
+                    <h1 class="carousel-heading">Taste of the East</h1>
                     <h3 class="carousel-heading3">I'm a paragraph. Here can add your own text.</h3>
                     <p><a class="btn btn-lg btn-warning btn-resized" href="#" role="button">поръчай</a></p>
                 </div>
@@ -75,7 +75,7 @@
             <img src="images/shots.jpg" alt="Shots" class="img-responsive">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 class="carousel-heading" style="color: yellow;">Taste of the East</h1>
+                    <h1 class="carousel-heading">Taste of the East</h1>
                     <h3 class="carousel-heading3">I'm a paragraph. Here can add your own text.</h3>
                     <p><a class="btn btn-lg btn-warning btn-resized" href="#" role="button">поръчай</a></p>
                 </div>
@@ -85,7 +85,7 @@
             <img src="images/chefRest.jpg" alt="Shots" class="img-responsive">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 class="carousel-heading" style="color: yellow;">Taste of the East</h1>
+                    <h1 class="carousel-heading">Taste of the East</h1>
                     <h3 class="carousel-heading3">I'm a paragraph. Here can add your own text.</h3>
                     <p><a class="btn btn-lg btn-warning btn-resized" href="#" role="button">поръчай</a></p>
                 </div>
@@ -366,10 +366,10 @@
         })
     });
 
-    $('#info').text($(window).width());
+   /* $('#info').text($(window).width());
     $(window).resize(function () {
         $('#info').text($(window).width());
-    });
+    });*/
 </script>
 </body>
 </html>

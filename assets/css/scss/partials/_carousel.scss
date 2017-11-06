@@ -1,7 +1,6 @@
 /* Carousel base class */
 .carousel {
   max-height: 600px;
-  //margin-bottom: 60px;
 }
 
 /* caption */
@@ -33,52 +32,82 @@
     }
   }
 
+  @media screen and(min-width: 320px) and (max-width: 601px) {
+    .carousel-control.right, .carousel-control.left {
+      display: none;
+    }
+    .carousel-indicators li {
+      display: none;
+    }
+    .carousel-caption {
+      z-index: 10;
+      top: 0;
+
+      .carousel-heading {
+        font-size: 28px;
+      }
+      .carousel-heading3 {
+        font-size: 16px;
+        color: $carousel-h3-color;
+      }
+      .btn-resized {
+        width: 150px;
+        height: auto;
+        font-size: 12px;
+      }
+    }
+
+  }
+
 }
+
 /* Carousel imafe color filter*/
-.carousel-inner{
-  background-color: #0a0a0a;
+.carousel-inner {
+  background-color: $carousel-image-filter-color;
 }
+
 .carousel-inner > .item > img {
   filter: opacity(0.5)
 }
-
+.carousel-heading{
+  color: $carousel-heading-color;
+}
 /* navigation */
 .carousel-control.right, .carousel-control.left {
   background-image: none;
-  color: yellow //$primary-color;
+  color: $carousel-navigation-color
 }
 
 .carousel-indicators li {
-  border-color: yellow; //$primary-color;
+  border-color: y$carousel-navigation-color
 }
 
 .carousel-indicators li.active {
-  background-color: yellow; //$primary-color;
+  background-color: $carousel-navigation-color
 }
 
 // Mobile
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 320px) {
   .carousel {
-   /* width: 300px;
-    height: 180px;
-    margin-bottom: 30px;*/
+     width: 320px;
+     height: 180px;
+     margin-bottom: 30px;
   }
 
   .carousel-indicators li {
     display: none;
   }
   .carousel .item {
-    /*width: 300px;
-    height: 180px;*/
-    background-color: #000;
+    width: 320px;
+    height: 180px;
   }
   .carousel-inner > .item > img {
-    /*position: absolute;
+    position: absolute;
     top: 0;
     left: 0;
-    min-width: 100%;*/
-    /*width: 300px;
-    height: 180px;*/
+    min-width: 100%;
+    width: 320px;
+    height: 180px;
   }
   .carousel-caption {
     z-index: 10;
