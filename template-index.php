@@ -110,7 +110,7 @@
     </div>
     <div class="row">
         <div class="col-sm-6">
-            <img id="img-about" class="img-responsive image-about" src="images/rest-dish.png" alt="image">
+            <img id="img-about" class="img-responsive image-center" src="images/rest-dish.png" alt="image">
         </div>
         <div class="col-xs-12 col-sm-6">
             <h2 class="post-title">Lorem ipsum..</h2>
@@ -194,7 +194,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <img id="img-bar" src="images/rest-dish-1.jpg" class="img-responsive" alt="image">
+            <img id="img-bar" src="images/rest-dish-1.jpg" class="img img-responsive image-center" alt="image">
         </div>
     </div>
     <div class="row">

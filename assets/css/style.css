@@ -236,6 +236,9 @@ h4 {
   color: #303030;
   font-weight: 400; }
 
+.image-center {
+  margin: 0 auto; }
+
 .section-title {
   color: #333;
   text-transform: uppercase;
