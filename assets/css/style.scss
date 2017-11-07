@@ -17,18 +17,18 @@ body {
   border-top: 4px double !important;
 }
 
-//h2 {
-//  //font-size: 24px;
-//  color: $font-color-dark;
-//  font-weight: 600;
-//  margin-bottom: 30px;
-//}
-//h4 {
-//  //font-size: 19px;
-//  line-height: 1.375em;
-//  color: $font-color-dark;
-//  font-weight: 400;
-//}
+h2 {
+  font-size: 24px;
+  color: $font-color-dark;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: $font-color-dark;
+  font-weight: 400;
+}
 .post-title {
   color: $post-title-color;
   font-style: italic;
