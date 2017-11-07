@@ -109,7 +109,7 @@
     </div>
     <div class="row">
         <div class="col-sm-6">
-            <img id="img-about" class="img-responsive image-center" src="images/rest-dish.png" alt="image">
+            <img id="img-about" class="img-responsive image-center slideanim" src="images/rest-dish.png" alt="image">
         </div>
         <div class="col-xs-12 col-sm-6">
             <h2 class="post-title">Lorem ipsum..</h2>
@@ -138,7 +138,7 @@
     <div class="row">
         <div class="col-xs-12 col-sm-6">
             <div class="section-text-menu">
-                <div class="row slideanim">
+                <div class="row">
                     <div class="col-sm-9">
                         <h4>Телешки домашен бургер 'The Chef'</h4>
                         <p>Assortment of fresh baked fruit breads and muffins</p>
@@ -151,7 +151,7 @@
                     </div>
                 </div>
                 <hr>
-                <div class="row slideanim">
+                <div class="row">
                     <div class="col-sm-9">
                         <h4>Панирани крилца с корнфлейкс</h4>
                         <p>Assortment of fresh baked fruit breads and muffins</p>
@@ -164,7 +164,7 @@
                     </div>
                 </div>
                 <hr>
-                <div class="row slideanim">
+                <div class="row">
                     <div class="col-sm-9">
                         <h4>Домашно приготвена паста</h4>
                         <p>Assortment of fresh baked fruit breads and muffins</p>
@@ -177,7 +177,7 @@
                     </div>
                 </div>
                 <hr>
-                <div class="row slideanim">
+                <div class="row">
                     <div class="col-sm-9">
                         <h4>Роле от свинско месо с печен сос</h4>
                         <p>Assortment of fresh baked fruit breads and muffins</p>
@@ -193,7 +193,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <img id="img-bar" src="images/rest-dish-1.jpg" class="img img-responsive image-center" alt="image">
+            <img id="img-bar" src="images/rest-dish-1.jpg" class="img img-responsive image-center slideanim" alt="image">
         </div>
     </div>
     <div class="row">
@@ -277,7 +277,7 @@
             <!-- Set height and width with CSS -->
             <div id="googleMap" style="height:400px;width:100%;"></div>
             <!-- Add Google Maps -->
-            <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCPDJyNrJzVQwshGN8MPLrr0zR7LOAneCg"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPDJyNrJzVQwshGN8MPLrr0zR7LOAneCg"></script>
             <script>
                 var myCenter = new google.maps.LatLng(43.991771, 22.879069);
 
@@ -366,7 +366,6 @@
             }
         })
     });
-
 </script>
 </body>
 </html>

@@ -9,7 +9,7 @@
 body {
   font: $body-font;
   line-height: 1.8;
-  color: $body-font-color;
+  //color: $body-font-color;
   padding-top: 70px;
 }
 
@@ -17,24 +17,23 @@ body {
   border-top: 4px double !important;
 }
 
-h2 {
-  font-size: 24px;
-  color: $font-color-dark;
-  font-weight: 600;
-  margin-bottom: 30px;
-}
-
+//h2 {
+//  //font-size: 24px;
+//  color: $font-color-dark;
+//  font-weight: 600;
+//  margin-bottom: 30px;
+//}
+//h4 {
+//  //font-size: 19px;
+//  line-height: 1.375em;
+//  color: $font-color-dark;
+//  font-weight: 400;
+//}
 .post-title {
   color: $post-title-color;
   font-style: italic;
 }
 
-h4 {
-  font-size: 19px;
-  line-height: 1.375em;
-  color: $font-color-dark;
-  font-weight: 400;
-}
 .image-center{
   margin: 0 auto;
 }

@@ -219,27 +219,14 @@
 body {
   font: 400 15px "Lora", serif;
   line-height: 1.8;
-  color: #818181;
   padding-top: 70px; }
 
 .hr-double {
   border-top: 4px double !important; }
 
-h2 {
-  font-size: 24px;
-  color: #303030;
-  font-weight: 600;
-  margin-bottom: 30px; }
-
 .post-title {
   color: #4e7496;
   font-style: italic; }
-
-h4 {
-  font-size: 19px;
-  line-height: 1.375em;
-  color: #303030;
-  font-weight: 400; }
 
 .image-center {
   margin: 0 auto; }
