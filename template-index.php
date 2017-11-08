@@ -193,7 +193,8 @@
             </div>
         </div>
         <div class="col-md-6">
-            <img id="img-bar" src="images/rest-dish-1.jpg" class="img img-responsive image-center slideanim" alt="image">
+            <img id="img-bar" src="images/rest-dish-1.jpg" class="img img-responsive image-center slideanim"
+                 alt="image">
         </div>
     </div>
     <div class="row">
@@ -311,15 +312,17 @@
     </a>
 </div>
 <!-- Footer -->
-<div class="container-fluid footer-style">
-    <div class="">
+<footer>
+    <div class="container-fluid footer-style">
+
         <div class="row">
             <div class="col-md-4 col-xs-12">
                 <p><span class="glyphicon glyphicon-phone"></span> +0359 88223314</p>
                 <p><span class="glyphicon glyphicon-envelope"></span> e-mail@something.com</p>
                 <p><span class="glyphicon glyphicon-hourglass"></span> работно време: 09 - 24:00ч.</p>
                 <div class="social-icon-footer">
-                    <a style="display: inline-block" href="https://www.facebook.com/Chefs-Family-Bar-Kitchen-1991656841061317/" target="_blank">
+                    <a style="display: inline-block"
+                       href="https://www.facebook.com/Chefs-Family-Bar-Kitchen-1991656841061317/" target="_blank">
                         <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
                     </a>
                     <p style="display: inline-block">follow us</p>
@@ -333,13 +336,17 @@
                     <li><a href="#">Къде сме</a></li>
                 </ul>
             </div>
-            <div class="col-md-4 col-xs-12">
-                <p>2017 Bootstrap Theme created By</p>
-                <p>{ plamenorama@gmail.com }</p>
+
+        </div>
+    </div>
+    <div class="container-fluid footer-dark">
+        <div class="row">
+            <div class="col-md-12 col-xs-12">
+                <p>Copyright &copy; 2017 Chefs Family Bar & Kitchen  | Designed by plamenorama@gmail.com</p>
             </div>
         </div>
     </div>
-</div>
+</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.4/scrollreveal.min.js"></script>
