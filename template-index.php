@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css"
           href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/holder.js"></script>
     <title>Template-Restaurant</title>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -244,6 +245,7 @@
                 <img src="images/gal/burger-1.jpg" alt="From our kitchen">
                 <img src="images/gal/food-4.jpg" alt="From our kitchen">
                 <img src="images/gal/uzzo.jpg" alt="From our kitchen">
+                <img data-src="holder.js/430x250?bg=FF8362&fg=FF8362">
                 <img src="images/gal/oktopod.jpg" alt="From our kitchen">
                 <img src="images/gal/rest-2.jpg" alt="From our kitchen">
                 <img src="images/gal/food-1.jpg" alt="From our kitchen">
@@ -373,6 +375,12 @@
             }
         })
     });
+
+   /* Holder.addTheme("custom", {foreground: "#fff", background: "#000", size: 15}).run({
+        domain: "custom.holder",
+        renderer: "canvas"
+    });
+*/
 </script>
 </body>
 </html>
