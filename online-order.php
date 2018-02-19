@@ -7,10 +7,8 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
-    <link rel="stylesheet" type="text/css"
-          href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/holder.js"></script>
     <title>Template-Restaurant</title>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -41,48 +39,129 @@
         </div>
     </div>
 </nav>
-<div id="jumbotron" class="jumbotron text-center">
-    <h1>Company</h1>
-
-    <p>We specialize in blablabla</p>
-
-    <form class="form-inline">
-        <input type="email" class="form-control" size="50" placeholder="Email Address">
-        <button type="button" class="btn btn-danger">Subscribe</button>
-    </form>
-    <p id="height"></p>
+<div id="myCarousel" class="jumbotron" style="height: 200px;background-image: url('images/menu-food.jpg')">
+    <div class="col-md-12 text-center">
+        <h1 style="color:#c45aff">Our Food Menu</h1>
+    </div>
 </div>
-
-<div id="online_order" class="container container-padding">
-
-</div>
-<!--  Add (About container) -->
-<div id="about" class="container container-padding">
-
-</div>
-
-<!-- ADD Chef Container -->
-<div id="chef" class="container container-padding">
-    <div class="row text-center">
-        <h4 class="section-title">Главния готвач</h4>
-        <hr class="hr hr-double">
+<div id="online_order" class="container">
+    <div class="row">
+        <div class="col-md-12 closed text-center">
+            <p>За съжаление, онлайн поръчките понастоящем са затворени. В момента не приемаме поръчки.</p>
+        </div>
     </div>
     <div class="row">
-        <div class="col-md-6">
-            <img src="images/chef-2.jpg" alt="chef" class="img-responsive slideanim">
+        <div class="col-md-2">
+            <ul class="nav navbar-nav navbar-sidebar">
+                <li><a href="#about">Ресторантът</a></li>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#chef">The Chef</a></li>
+                <li><a href="#order">Онлайн поръчка</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
         </div>
-        <div class="col-md-6">
-            <h2 class="post-title">Среща с шеф Манчев</h2>
-            <div class="section-text-left">
-                <p>
-                    A calm, pleasant, helpful and hardworking individual who has a passion for great
-                    food and who enjoys cooking mouth watering dishes. Charles gets a real buzz out of
-                    working in a busy kitchen, and great pleasure out of seeing happy faces enjoying a
-                    good meal that he has cooked.
-                </p>
+        <div class="col-md-7" style="border-left: 1px solid #999; border-right: 1px solid #999;">
+            <div class="row">
+                <div class="col-md-9">
+                    <h4>Телешки домашен бургер 'The Chef'</h4>
+                    <p>Assortment of fresh baked fruit breads and muffins.
+                        Assortment of fresh baked fruit breads and muffins
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h4>450
+                        <small>гр</small>
+                        5.50
+                    </h4>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-9">
+                    <h4>Телешки домашен бургер 'The Chef'</h4>
+                    <p>Assortment of fresh baked fruit breads and muffins</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>450
+                        <small>гр</small>
+                        5.50
+                    </h4>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <h4>Телешки домашен бургер 'The Chef'</h4>
+                    <p>Assortment of fresh baked fruit breads and muffins</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>450
+                        <small>гр</small>
+                        5.50
+                    </h4>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <h4>Телешки домашен бургер 'The Chef'</h4>
+                    <p>Assortment of fresh baked fruit breads and muffins</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>450
+                        <small>гр</small>
+                        5.50
+                    </h4>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <h4>Телешки домашен бургер 'The Chef'</h4>
+                    <p>Assortment of fresh baked fruit breads and muffins</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>450
+                        <small>гр</small>
+                        5.50
+                    </h4>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <h4>Телешки домашен бургер 'The Chef'</h4>
+                    <p>Assortment of fresh baked fruit breads and muffins</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>450
+                        <small>гр</small>
+                        5.50
+                    </h4>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="col-md-3">
+            <p>вашата поръчка (0 продукта)</p>
+            <div class="text-center bag">
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                <P>Browse our menu and start adding items to your order</P>
+            </div>
+            <div class="order-footer">
+                <p>тотал: 0</p>
+            </div>
+            <hr>
+            <div class="text-center">
+                <button class="btn btn-black">поръчай
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </button>
             </div>
         </div>
-
     </div>
 </div>
 
@@ -123,7 +202,7 @@
     <div class="container-fluid footer-dark">
         <div class="row">
             <div class="col-md-12 col-xs-12">
-                <p>Copyright &copy; 2017 Chefs Family Bar & Kitchen  | Designed by plamenorama@gmail.com</p>
+                <p>Copyright &copy; 2017 Chefs Family Bar & Kitchen | Designed by plamenorama@gmail.com</p>
             </div>
         </div>
     </div>
@@ -154,12 +233,6 @@
             }
         })
     });
-
-   /* Holder.addTheme("custom", {foreground: "#fff", background: "#000", size: 15}).run({
-        domain: "custom.holder",
-        renderer: "canvas"
-    });
-*/
 </script>
 </body>
 </html>

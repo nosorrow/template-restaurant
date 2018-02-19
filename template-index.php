@@ -231,7 +231,7 @@
 </div>
 
 <!-- ADD Image Container -->
-<div class="container-fluid">
+<div class="container">
     <div class="row text-center">
         <h4 class="section-title">От нашата кухня</h4>
         <hr class="hr hr-double">
@@ -314,14 +314,14 @@
     </a>
 </div>
 <!-- Footer -->
-<footer>
+<footer id="footer">
     <div class="container-fluid footer-style">
 
         <div class="row">
             <div class="col-md-4 col-xs-12">
-                <p><span class="glyphicon glyphicon-phone"></span> +0359 88223314</p>
-                <p><span class="glyphicon glyphicon-envelope"></span> e-mail@something.com</p>
-                <p><span class="glyphicon glyphicon-hourglass"></span> работно време: 09 - 24:00ч.</p>
+                <p><span class="glyphicon glyphicon-phone glyphicon-color"></span> +0359 88223314</p>
+                <p><span class="glyphicon glyphicon-envelope glyphicon-color"></span> e-mail@something.com</p>
+                <p><span class="glyphicon glyphicon-hourglass glyphicon-color"></span> работно време: 09 - 24:00ч.</p>
                 <div class="social-icon-footer">
                     <a style="display: inline-block"
                        href="https://www.facebook.com/Chefs-Family-Bar-Kitchen-1991656841061317/" target="_blank">

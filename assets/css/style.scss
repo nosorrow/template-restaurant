@@ -1,10 +1,10 @@
-
 /* Restaurant site template*/
 @import 'scss/partials/variables';
 @import 'scss/partials/navbar';
 @import 'scss/partials/footer';
 @import 'scss/partials/carousel';
 @import 'scss/partials/button-outline';
+@import 'scss/partials/nav-sidebar';
 
 body {
   font: $body-font;
@@ -23,64 +23,57 @@ h2 {
   font-weight: 600;
   margin-bottom: 30px;
 }
+
 h4 {
   font-size: 19px;
   line-height: 1.375em;
   color: $font-color-dark;
   font-weight: 400;
 }
+
 .post-title {
   color: $post-title-color;
   font-style: italic;
 }
 
-.image-center{
-  margin: 0 auto;
-}
 .section-title {
   color: $section-title-color;
   text-transform: uppercase;
   font-size: $section-title-size;
   letter-spacing: 4px;
 }
-
+.row.center {
+  display: flex;
+  align-items: center;
+}
 .container-padding {
   padding: 60px 20px;
 }
 
-.paralax-slide {
-  //background: $bg-slide;
-  color: $font-color-lite;
-  margin: 0;
-  padding: 0 0 260px 0;
-  background-size: cover;
-  .company-color {
-    color: $primary-color;
-  }
-}
-.section-text{
+.section-text {
   padding: 15px 15px 15px 15px;
-  p{
+  p {
     letter-spacing: 1px;
   }
 }
+
 .section-text-left {
   @extend .section-text;
   max-width: 600px;
-  border-top: 3px solid rgba(147,255,207, 0.5);
-  border-right: 3px solid rgba(147,255,207, 0.5);
-  border-bottom: 3px solid rgba(147,255,207, 0.5);
+  border-top: 3px solid rgba(147, 255, 207, 0.5);
+  border-right: 3px solid rgba(147, 255, 207, 0.5);
+  border-bottom: 3px solid rgba(147, 255, 207, 0.5);
 
 }
 
 .section-text-menu {
   @extend .section-text;
   max-width: 600px;
-  border-top: 3px solid rgba(147,255,207, 0.5);
-  border-left: 3px solid rgba(147,255,207, 0.5);
-  border-bottom: 3px solid rgba(147,255,207, 0.5);
+  border-top: 3px solid rgba(147, 255, 207, 0.5);
+  border-left: 3px solid rgba(147, 255, 207, 0.5);
+  border-bottom: 3px solid rgba(147, 255, 207, 0.5);
 
-  p{
+  p {
     font-style: italic;
   }
 }
@@ -115,7 +108,7 @@ h4 {
   padding: 10px 0 10px 0;
 }
 
-.btn-resized{
+.btn-resized {
   width: 250px;
   height: 57px;
   border-radius: 15px;
@@ -123,6 +116,7 @@ h4 {
   font-size: 22px;
   margin: 25px 0 15px 0;
 }
+
 @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
@@ -165,20 +159,23 @@ h4 {
     color: #fff;
   }
 }
-.home-down{
+
+.home-down {
   background-color: #57d8ff;
 }
+
 /* ---------------- Facebook left btn ----------------*/
-.social-icon-left{
+.social-icon-left {
   font-size: 30px;
   position: fixed;
   top: 50%;
   left: 0;
   z-index: 999;
-  @media screen and (max-width: 320px){
-    display:none;
+  @media screen and (max-width: 320px) {
+    display: none;
   }
 }
+
 /* ---------------- Animation ------------------------*/
 
 .slideanim {
@@ -230,26 +227,57 @@ along the Y-axis
   margin-bottom: 50px;
 }
 
-/* ----------------------------------- */
+/* --------IMAGE GALERY----------------- */
 .gal {
 
-  -webkit-column-count: 3; /* Chrome, Safari, Opera */
-  -moz-column-count: 3; /* Firefox */
-  column-count: 3;
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+  -moz-column-count: 4; /* Firefox */
+  column-count: 4;
+  column-gap: 0;
 
 }
 
 .gal img {
   width: 100%;
-  padding: 7px 0;
+  padding: 0;
 }
+
 @media (max-width: 500px) {
 
   .gal {
-
     -webkit-column-count: 1; /* Chrome, Safari, Opera */
     -moz-column-count: 1; /* Firefox */
     column-count: 1;
 
   }
+}
+
+/* -------- ONLINE ORDER ------- */
+.bag {
+  color: $bag-color;
+  padding: 15px 0 15px 0;
+  i {
+    font-size: 60px;
+  }
+
+}
+
+.order-footer {
+  border-top: 1px solid #555;
+  padding: 15px 0 15px 0;
+}
+
+.menu-content {
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+  padding: 10px 30px;
+}
+
+.well-closed {
+  background: #FFF7E5;
+  border-radius: 0;
+  border-color: #FFF7E5;
+  color: #cb3a3b;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }

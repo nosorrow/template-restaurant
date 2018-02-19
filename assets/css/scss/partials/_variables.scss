@@ -1,15 +1,17 @@
-/* Color variables */
+/* Template variables */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 @import url('https://fonts.googleapis.com/css?family=Lora');
-$primary-color:#48AECB;
-$body-font-color: #616161;;
+
+$primary-color: #48AECB;
+$body-font-color: #616161;
+
 $font-color-dark: #303030;
-$font-color-lite:#fff;
-$body-font:400 16px 'Lora', serif;
+$font-color-lite: #fff;
+$body-font: 400 16px 'Lora', serif;
 $post-title-color: #4e7496;
 $section-title-color: #333;
-$section-title-size:16px;
+$section-title-size: 16px;
 /* NavBar */
 $navbar-font-family: 'Lora', serif;
 $navbar-font-size: 16px;
@@ -23,17 +25,19 @@ $navbar-brand-font-size: 24px;
 $navbar-brand-font-family: "Dancing Script", cursive;
 
 /*Paralax slide var*/
-$section-bg-color:rgb(246, 246, 246);
-$bg-slide:url('img/bar-image.png') 50% 0 no-repeat fixed;
-
+$section-bg-color: rgb(246, 246, 246);
+$bg-slide: url('img/bar-image.png') 50% 0 no-repeat fixed;
 /* Carousel */
-$carousel-h3-color:#ffece6;
-$carousel-navigation-color:#f9f698;
-$carousel-image-filter-color:#000;
-$carousel-heading-color:$carousel-navigation-color;
-$carousel-image-opacity:0.55;
+$carousel-h3-color: #ffece6;
+$carousel-navigation-color: #ffece6;
+$carousel-image-filter-color: #000;
+$carousel-heading-color: $carousel-navigation-color;
+$carousel-image-opacity: 0.55;
+/* ORDER */
+$bag-color: #d1d1d1;
 /* Footer */
-$footer-font-family:'Roboto', sans-serif;
-$footer-font-color: #cecece;
-$footer-bg-color:#20202e;
+$footer-font-family: 'Roboto', sans-serif;
+$footer-font-color: #d1d1d1;
+$footer-bg-color: #20202e;
 $footer-bg-dark-color: #161624;
+$footer-glyphicon-color: #FD8A06;
